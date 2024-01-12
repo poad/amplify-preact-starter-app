@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-amplify/core": "^6.0.11",
-    "aws-amplify": "^6.0.11",
+    "@aws-amplify/core": "^6.0.12",
+    "aws-amplify": "^6.0.12",
     "preact": "^10.19.3"
   },
   "devDependencies": {
