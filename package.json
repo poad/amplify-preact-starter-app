@@ -17,7 +17,7 @@
     "@aws-amplify/backend": "^0.10.1",
     "@aws-amplify/backend-cli": "^0.9.6",
     "@preact/preset-vite": "^2.8.1",
-    "@types/node": "^20.11.1",
+    "@types/node": "^20.11.4",
     "typescript": "^5.3.3",
     "vite": "^5.0.11"
   }
