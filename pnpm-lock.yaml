@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@aws-amplify/core':
-    specifier: ^6.0.12
-    version: 6.0.12
+    specifier: ^6.0.13
+    version: 6.0.13
   aws-amplify:
-    specifier: ^6.0.12
-    version: 6.0.12
+    specifier: ^6.0.13
+    version: 6.0.13
   preact:
     specifier: ^10.19.3
     version: 10.19.3
@@ -90,12 +90,12 @@ packages:
       - encoding
     dev: true
 
-  /@aws-amplify/analytics@7.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-JRt4wgGIUL98oq2SAjfHQa2SN/ibWXF6MtWp/X2QUdJQ1LHV/fDMBPBgPGWEkXUu8noFNHJL26smcRfsfvfSZw==}
+  /@aws-amplify/analytics@7.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-riOtiAYn7ja2YrxV0A78f9XB6Pd9kmAk1DO6xyyKGSEsoEGKNtJ3CJkWBMtQeIDExGqX0LO/I+Mfey8QJxiytQ==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/core': 6.0.13
       '@aws-sdk/client-firehose': 3.398.0
       '@aws-sdk/client-kinesis': 3.398.0
       '@aws-sdk/client-personalize-events': 3.398.0
@@ -105,11 +105,11 @@ packages:
       - aws-crt
     dev: false
 
-  /@aws-amplify/api-graphql@4.0.12:
-    resolution: {integrity: sha512-e1bBDOmuakQ5vFBXJiKzxK6AoVdxzKxyh+GCaPDInLnC5DDCTxgFlCqfGWM65S1oDkWYOW2luHHgsSErBgOT/A==}
+  /@aws-amplify/api-graphql@4.0.13:
+    resolution: {integrity: sha512-FdsPKqcsy4aXNxx+9kxMKhZo8fBLanfG9P44oVYDRi54+Poqcd7eeqqWYnB03uYO5MW3oN6ZriHmy4JTnxG/hw==}
     dependencies:
-      '@aws-amplify/api-rest': 4.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/api-rest': 4.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/core': 6.0.13
       '@aws-amplify/data-schema-types': 0.6.12
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
@@ -118,20 +118,20 @@ packages:
       uuid: 9.0.1
     dev: false
 
-  /@aws-amplify/api-rest@4.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-Qwq3C5YoyJtGnWMPLEylcp6KZ9eAYiqZFG9GRYt0ITyhqODbUptxs/aAUHskUyRV3ahWbGxJ4ChJBYx2Pq/jDA==}
+  /@aws-amplify/api-rest@4.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-hTp7Tcuyoo6sIbnjjmBLXgkIctn44ZT+daotp/kORlQWAmzwqPAX7/oeP62astMb1Yax5k2Y2eMRgizt8bdF6A==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/core': 6.0.13
       tslib: 2.6.2
     dev: false
 
-  /@aws-amplify/api@6.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-A+RCi/oycOa/3AeduVYxrMbAu1GhNXMOZgSQI8SFGiPbM0o5VvRZLeL8oAVU/Vq8zWSwLsurPOz+H3MQMtt0sw==}
+  /@aws-amplify/api@6.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-fZ539EBTFAQbbXmqTPv7NuDnb2bHjjZU2ZoIdngWXEuPMmfqiE9WmLf0W9j3GDxlMLAJEMYa1SumT5kruVtQ3Q==}
     dependencies:
-      '@aws-amplify/api-graphql': 4.0.12
-      '@aws-amplify/api-rest': 4.0.12(@aws-amplify/core@6.0.12)
+      '@aws-amplify/api-graphql': 4.0.13
+      '@aws-amplify/api-rest': 4.0.13(@aws-amplify/core@6.0.13)
       tslib: 2.6.2
     transitivePeerDependencies:
       - '@aws-amplify/core'
@@ -198,12 +198,12 @@ packages:
       - zod
     dev: true
 
-  /@aws-amplify/auth@6.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-NUJQUSY1flf5/VLfsN19Oj0/DkpP36dOm0lN1u5hlcNPfW3biEm073ifE9JcKvQjgRkKmufZ2U3uciBlCXsl3Q==}
+  /@aws-amplify/auth@6.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-ovOgqLf6mYprQW/rvpm01oXk5DEn6DlpHk99/8WVHvYezAM7jMcx4JEdqJxDC9m841/6AvGmzsRpABWHvEoVbQ==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/core': 6.0.13
       tslib: 2.6.2
     dev: false
 
@@ -313,6 +313,14 @@ packages:
     transitivePeerDependencies:
       - aws-crt
       - zod
+    dev: true
+
+  /@aws-amplify/backend-output-schemas@0.4.0(zod@3.22.4):
+    resolution: {integrity: sha512-/gxeCtjvbKW+OYP1CUv1dZy2tW3dxagNRGBJWrzaZgqqmQ6zTmyboOxgFdC2KO1WKLddsv+z/gciZNs46m3gBQ==}
+    peerDependencies:
+      zod: ^3.21.4
+    dependencies:
+      zod: 3.22.4
     dev: true
 
   /@aws-amplify/backend-output-schemas@0.5.2(zod@3.22.4):
@@ -440,8 +448,8 @@ packages:
       yup: 0.32.11
     dev: true
 
-  /@aws-amplify/core@6.0.12:
-    resolution: {integrity: sha512-lBmYJsqh5SOYkeXS6/zoZ9VsMpoYNw8XqDFwf+XFXt+zn4UdZ0cVB+AD6L5VK7h2T0oNCzmQ0TiO2do5BHyvFg==}
+  /@aws-amplify/core@6.0.13:
+    resolution: {integrity: sha512-R/Om5R/K4WHrz44hgY4JQMPqgtG0sRDb3CuH4orxseWaIXuQLyYqpn3DU/tS+l1BVfpr1uYTWJZpZLv/l3ApUQ==}
     dependencies:
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/types': 3.398.0
@@ -459,9 +467,48 @@ packages:
       aws-cdk-lib: ^2.80.0
       constructs: ^10.0.5
     dependencies:
+      '@aws-amplify/backend-output-schemas': 0.4.0(zod@3.22.4)
+      '@aws-amplify/backend-output-storage': 0.2.11(aws-cdk-lib@2.122.0)(constructs@10.3.0)(zod@3.22.4)
       '@aws-amplify/graphql-api-construct': 1.5.4(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-auth-transformer': 3.3.4(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-default-value-transformer': 2.2.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-function-transformer': 2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-http-transformer': 2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-index-transformer': 2.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-maps-to-transformer': 3.4.4(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-model-transformer': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-predictions-transformer': 2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-relational-transformer': 2.3.4(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-searchable-transformer': 2.5.0(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-sql-transformer': 0.2.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer': 1.3.8(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/platform-core': 0.2.2(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/plugin-types': 0.4.2(aws-cdk-lib@2.122.0)(constructs@10.3.0)
       aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      charenc: 0.0.2
       constructs: 10.3.0
+      crypt: 0.0.2
+      fs-extra: 8.1.0
+      graceful-fs: 4.2.11
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+      hjson: 3.2.2
+      immer: 9.0.21
+      is-buffer: 2.0.5
+      jsonfile: 6.1.0
+      libphonenumber-js: 1.9.47
+      lodash: 4.17.21
+      md5: 2.3.0
+      object-hash: 3.0.0
+      pluralize: 8.0.0
+      ts-dedent: 2.2.0
+      universalify: 2.0.1
+      zod: 3.22.4
+    transitivePeerDependencies:
+      - aws-crt
     dev: true
     bundledDependencies:
       - '@aws-amplify/backend-output-schemas'
@@ -513,13 +560,13 @@ packages:
       '@aws-amplify/data-schema-types': 0.6.12
     dev: true
 
-  /@aws-amplify/datastore@5.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-Ps33AZ9pn/fCT009ihgodoDySrjONDWSEkkqfZbEMQKLK4mgRpM1GxpHHyhK+65S37vDltg5v1M5bP9PL//hqg==}
+  /@aws-amplify/datastore@5.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-fmQG8NHls1z1CJFyLvx8y83o6Cfaq/bZE4jJPA2jhnQ9+IHUMnhMKKQn5AYctmRYiD3RC72gicnp85HgoFH45A==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/api': 6.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/api': 6.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/core': 6.0.13
       buffer: 4.9.2
       idb: 5.0.6
       immer: 9.0.6
@@ -572,8 +619,47 @@ packages:
       aws-cdk-lib: ^2.80.0
       constructs: ^10.0.5
     dependencies:
+      '@aws-amplify/backend-output-schemas': 0.4.0(zod@3.22.4)
+      '@aws-amplify/backend-output-storage': 0.2.11(aws-cdk-lib@2.122.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/graphql-auth-transformer': 3.3.4(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-default-value-transformer': 2.2.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-function-transformer': 2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-http-transformer': 2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-index-transformer': 2.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-maps-to-transformer': 3.4.4(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-model-transformer': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-predictions-transformer': 2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-relational-transformer': 2.3.4(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-searchable-transformer': 2.5.0(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-sql-transformer': 0.2.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer': 1.3.8(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/platform-core': 0.2.2(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/plugin-types': 0.4.2(aws-cdk-lib@2.122.0)(constructs@10.3.0)
       aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      charenc: 0.0.2
       constructs: 10.3.0
+      crypt: 0.0.2
+      fs-extra: 8.1.0
+      graceful-fs: 4.2.11
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+      hjson: 3.2.2
+      immer: 9.0.21
+      is-buffer: 2.0.5
+      jsonfile: 6.1.0
+      libphonenumber-js: 1.9.47
+      lodash: 4.17.21
+      md5: 2.3.0
+      object-hash: 3.0.0
+      pluralize: 8.0.0
+      ts-dedent: 2.2.0
+      universalify: 2.0.1
+      zod: 3.22.4
+    transitivePeerDependencies:
+      - aws-crt
     dev: true
     bundledDependencies:
       - '@aws-amplify/backend-output-schemas'
@@ -614,6 +700,39 @@ packages:
       - universalify
       - zod
 
+  /@aws-amplify/graphql-auth-transformer@3.3.4(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-04LiP9Fh4JyxPxJ302OSLpTJr9Wv6Pmu4UnG5cgPb7mGyFomSPyIZABhRB1+cFMnue+pYtlp2SOYFAwFNp/NjA==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-model-transformer': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-relational-transformer': 2.3.4(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+      lodash: 4.17.21
+      md5: 2.3.0
+    dev: true
+
+  /@aws-amplify/graphql-default-value-transformer@2.2.3(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-unlYPZZzt5bzKEjR43pfca0Lm0zEhEkFr8kyhgQCoPhJV5kp0Uck8nPbQdEhP1UeRxELJ+qL1RpKN923fm0cyQ==}
+    dependencies:
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+      libphonenumber-js: 1.9.47
+    transitivePeerDependencies:
+      - aws-cdk-lib
+      - constructs
+    dev: true
+
   /@aws-amplify/graphql-docs-generator@4.2.0:
     resolution: {integrity: sha512-V9UXceZlYkumgvcHGp7kivTgvhxYcAdc5C+JCJPyDGvowktExdsnEap6WWn0JHmUK2+5ceBIi4BjcEubn+pXVA==}
     engines: {node: '>=10.0.0'}
@@ -634,6 +753,21 @@ packages:
       yargs: 15.4.1
     dev: true
 
+  /@aws-amplify/graphql-function-transformer@2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-hTZqcdWbjMTogETb5b2PyhcEyTye19lGJir6Pl9rybjCr21avFwwnu4xM1chr99uKQNThl3ZKz8roIVSIwZpuw==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+    dev: true
+
   /@aws-amplify/graphql-generator@0.1.5:
     resolution: {integrity: sha512-QlllwIYYTDASQ0HCTfr1/wUgbJYgquJkPVKCXRvzokh4uSnN2YMSCdJeVbJn96lOoxbHLF5J3DYdv86G/5b9vQ==}
     dependencies:
@@ -646,6 +780,184 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
+    dev: true
+
+  /@aws-amplify/graphql-http-transformer@2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-Zl2PoSVE7agT2ZGIQ+XE64O07WupH2Ck8vjLfWLKEIkk5ky+Qig2SvYtJ+OM1QDq8P9ti35e77WkxuEEMAfG0g==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+    dev: true
+
+  /@aws-amplify/graphql-index-transformer@2.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-qz2h7ldbscrDXWKH0lMgW46weKQncInBxKqiJEz+NrvMD5EBBp3+ebtlgWhopiXRawzJKDcvPeA3NIhq4NDzkg==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-model-transformer': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+    dev: true
+
+  /@aws-amplify/graphql-maps-to-transformer@3.4.4(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-jTEA1kDkziXkRhGu9gAQsEh8IDey9nfJNuLUUNzm0z5vBGRW9IT9yt1cGLC40LP21Cy8oLBD3+jkVveEc+SIsw==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+    dev: true
+
+  /@aws-amplify/graphql-model-transformer@2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-5BGEk0gAvG78djyksi3L+R4tCoxVgsoIwHA/Of0O60jSSATZOCRgKFkGNklPFSaRTuk0NSBkvWuFZpg04RHkow==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+    dev: true
+
+  /@aws-amplify/graphql-predictions-transformer@2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-BhrWVVe1a/GoT+RyOjGZfdehhs140l8bFRuIM/iNYLA4GOplHkNHj2OnyM0BTldf5jQkFg1WkKfta/z+vw7w5w==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+    dev: true
+
+  /@aws-amplify/graphql-relational-transformer@2.3.4(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-cK4U9r4cVVW39myknYwWensdU9opwTi17GIK0LX5aWEeyiwJXhwVoeWZW+fWOrfo5iSu6+QhTXwqYdkZ8WJ8kg==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-index-transformer': 2.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-model-transformer': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+      immer: 9.0.21
+    dev: true
+
+  /@aws-amplify/graphql-searchable-transformer@2.5.0(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-gt22tNv1aCTl2ZeyIeOqvHs3CNRJ3xCQsGhrQBJszja7t2PN/15+9mE6/tAtTdd634r35wP0ebSWvQQlI7kAzw==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-model-transformer': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+    dev: true
+
+  /@aws-amplify/graphql-sql-transformer@0.2.3(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-3Bxm5tIY8zcnpFNtHINwmWi4ZOaMbYRG4dEheDdGCM2upuPOUFjgGjT6u9O2SuvV6d6VyDRJfCKMtxsIOS+jnw==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-model-transformer': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      graphql: 15.8.0
+      graphql-mapping-template: 4.20.14
+      graphql-transformer-common: 4.27.1
+    dev: true
+
+  /@aws-amplify/graphql-transformer-core@2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-9R2E/ziJN714Vt0ylJuxQl59IVrJep0RsgjMQXZdsZ3LSa6znb279iSHXMYIb4jzBU+e3iXkDFUrKZ0zzNZ3cg==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      fs-extra: 8.1.0
+      graphql: 15.8.0
+      graphql-transformer-common: 4.27.1
+      hjson: 3.2.2
+      lodash: 4.17.21
+      md5: 2.3.0
+      object-hash: 3.0.0
+      ts-dedent: 2.2.0
+    dev: true
+
+  /@aws-amplify/graphql-transformer-interfaces@3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-m/Stnk3z8x/FJaNFXnXM4Kwd9L+qurON1ktJyMXB9cq20lCpi93413iG5856FTQx6/Re0tnS15GueiV/neP5ug==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
+      graphql: 15.8.0
+    dev: true
+
+  /@aws-amplify/graphql-transformer@1.3.8(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-S7tvdRgoHZDvg4uML1tW+2DcNy4YymLF9Bq2nC7jNz6S93n1SsvRk9b2SKyP5XaQHAQBRcCaSN/d0JIGNiAKFg==}
+    peerDependencies:
+      aws-cdk-lib: ^2.80.0
+      constructs: ^10.0.5
+    dependencies:
+      '@aws-amplify/graphql-auth-transformer': 3.3.4(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-default-value-transformer': 2.2.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-function-transformer': 2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-http-transformer': 2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-index-transformer': 2.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-maps-to-transformer': 3.4.4(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-model-transformer': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-predictions-transformer': 2.1.15(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-relational-transformer': 2.3.4(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-searchable-transformer': 2.5.0(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-sql-transformer': 0.2.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-core': 2.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-amplify/graphql-transformer-interfaces': 3.3.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
     dev: true
 
   /@aws-amplify/graphql-types-generator@3.4.3:
@@ -713,15 +1025,29 @@ packages:
       - zod
     dev: true
 
-  /@aws-amplify/notifications@2.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-PCL7rctR8fsA13HfWKjwGfaBO8dcoGblF3KCjY1XLvy6PbPm9KhbN7OuWDulhlDc/C5NJuaxVFfKocmMWEYSSQ==}
+  /@aws-amplify/notifications@2.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-/7W1J7AVNodAYZGoAywB2Cm9eLabGjgX2hnGo9fAmqHKt1MKfSWUiEGsMTzeihUkXBRCIgPpsvJCUIu4p6P6eQ==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/core': 6.0.13
       lodash: 4.17.21
       tslib: 2.6.2
     dev: false
+
+  /@aws-amplify/platform-core@0.2.2(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-STqVi20FJAJoii7H3LGM/KDMuesPrDTI1sO7aj+MmUNzIWLaE9SSDkFpuFKHt7zDdMvX33xW6qB4rcRUOAUxCw==}
+    dependencies:
+      '@aws-amplify/plugin-types': 0.4.2(aws-cdk-lib@2.122.0)(constructs@10.3.0)
+      '@aws-sdk/client-sts': 3.445.0
+      is-ci: 3.0.1
+      uuid: 9.0.1
+      zod: 3.22.4
+    transitivePeerDependencies:
+      - aws-cdk-lib
+      - aws-crt
+      - constructs
+    dev: true
 
   /@aws-amplify/platform-core@0.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0):
     resolution: {integrity: sha512-i+KGAqIWy0XTIdRp9Eug8/rQRi+S1akXnCm4T+nt6HHv8D4D9kQSxISnSymL7AYtv7h0ryxH72novHv0EBkTnA==}
@@ -735,6 +1061,16 @@ packages:
       - aws-cdk-lib
       - aws-crt
       - constructs
+    dev: true
+
+  /@aws-amplify/plugin-types@0.4.2(aws-cdk-lib@2.122.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-zJPNzo/hLZ3qnFwOrPk0sQoyIkPlYf0yTvBFvQGsPrramQhFkEsSjcDtr+Pvxp4LYThFCDqZ9ynAdXa/FJkVgg==}
+    peerDependencies:
+      aws-cdk-lib: ^2.110.1
+      constructs: ^10.0.0
+    dependencies:
+      aws-cdk-lib: 2.122.0(constructs@10.3.0)
+      constructs: 10.3.0
     dev: true
 
   /@aws-amplify/plugin-types@0.7.1(aws-cdk-lib@2.122.0)(constructs@10.3.0):
@@ -776,12 +1112,12 @@ packages:
       - typescript
     dev: true
 
-  /@aws-amplify/storage@6.0.12(@aws-amplify/core@6.0.12):
-    resolution: {integrity: sha512-dsWAN3nrKyby6EOeWA07il39HC77y2gsKyHuJ1+F1wmQb2obKAhKA13P5sW/eJhPvZvjGRXanQCR0QJeudMjHQ==}
+  /@aws-amplify/storage@6.0.13(@aws-amplify/core@6.0.13):
+    resolution: {integrity: sha512-3ri7O/Tk0N+UjLvJsDBszOAoXoIog2mVUYU/kpwQq0BAQpfBTdTzbaIk54QNyFNI0hsCb9fDFCn/7Djip8IpKQ==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
     dependencies:
-      '@aws-amplify/core': 6.0.12
+      '@aws-amplify/core': 6.0.13
       '@aws-sdk/types': 3.398.0
       '@smithy/md5-js': 2.0.7
       buffer: 4.9.2
@@ -805,7 +1141,7 @@ packages:
     resolution: {integrity: sha512-IzSgsrxUcsrejQbPVilIKy16kAT52EwB6zSaI+M3xxIhKh5+aldEyvI+z6erM7TCLB2BJsFrtHjp6/4/sr+3dA==}
     dependencies:
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.496.0
+      '@aws-sdk/types': 3.398.0
       tslib: 1.14.1
 
   /@aws-crypto/crc32c@3.0.0:
@@ -869,7 +1205,7 @@ packages:
   /@aws-crypto/util@3.0.0:
     resolution: {integrity: sha512-2OJlpeJpCR48CC8r+uKVChzs9Iungj9wkZrl8Z041DWEWvyIHILYKCPNzJghKsivj+S3mLo6BVc7mBNzdxA46w==}
     dependencies:
-      '@aws-sdk/types': 3.496.0
+      '@aws-sdk/types': 3.398.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
 
@@ -2401,7 +2737,6 @@ packages:
     dependencies:
       '@smithy/types': 2.9.1
       tslib: 2.6.2
-    dev: false
 
   /@aws-sdk/types@3.433.0:
     resolution: {integrity: sha512-0jEE2mSrNDd8VGFjTc1otYrwYPIkzZJEIK90ZxisKvQ/EURGBhNzWn7ejWB9XCMFT6XumYLBR0V9qq5UPisWtA==}
@@ -3552,7 +3887,7 @@ packages:
       cross-inspect: 1.0.0
       dset: 3.1.3
       graphql: 15.8.0
-      tslib: 2.6.2
+      tslib: 2.5.3
     dev: true
 
   /@graphql-tools/utils@6.2.4(graphql@15.8.0):
@@ -4684,16 +5019,16 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /aws-amplify@6.0.12:
-    resolution: {integrity: sha512-XSjakpiWnSekAQsRgj0RUhHlRFNfhwK9gXHgOqy4sWGFPYCNeZi94KkzL+OqSCybTRa5CVlh57OXfV7wEdykNg==}
+  /aws-amplify@6.0.13:
+    resolution: {integrity: sha512-z3APLE2ZJfntKot6wsb1+hNlPji2n/PxRqHdL5YD2dUXYVmj5P+WlVF1Bs9dF+254K2O6VvLK/ecTM/hMWimwA==}
     dependencies:
-      '@aws-amplify/analytics': 7.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/api': 6.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/auth': 6.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/core': 6.0.12
-      '@aws-amplify/datastore': 5.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/notifications': 2.0.12(@aws-amplify/core@6.0.12)
-      '@aws-amplify/storage': 6.0.12(@aws-amplify/core@6.0.12)
+      '@aws-amplify/analytics': 7.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/api': 6.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/auth': 6.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/core': 6.0.13
+      '@aws-amplify/datastore': 5.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/notifications': 2.0.13(@aws-amplify/core@6.0.13)
+      '@aws-amplify/storage': 6.0.13(@aws-amplify/core@6.0.13)
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -5128,7 +5463,7 @@ packages:
     resolution: {integrity: sha512-4PFfn4b5ZN6FMNGSZlyb7wUhuN8wvj8t/VQHZdM4JsDcruGJ8L2kf9zao98QIrBPFCpdk27qst/AGTl7pL3ypQ==}
     engines: {node: '>=16.0.0'}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.5.3
     dev: true
 
   /cross-spawn@7.0.3:
@@ -5857,6 +6192,11 @@ packages:
       tslib: 2.6.2
     dev: true
 
+  /hjson@3.2.2:
+    resolution: {integrity: sha512-MkUeB0cTIlppeSsndgESkfFD21T2nXPRaBStLtf3cAYA2bVEFdXlodZB0TukwZiobPD1Ksax5DK4RTZeaXCI3Q==}
+    hasBin: true
+    dev: true
+
   /human-signals@2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
@@ -5890,6 +6230,10 @@ packages:
   /ignore@5.3.0:
     resolution: {integrity: sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==}
     engines: {node: '>= 4'}
+    dev: true
+
+  /immer@9.0.21:
+    resolution: {integrity: sha512-bc4NBHqOqSfRW7POMkHd51LvClaeMXpm8dx0e8oE2GORbq5aRK7Bxl4FyzVLdGtLmvLKL7BTDBG5ACQm4HWjTA==}
     dev: true
 
   /immer@9.0.6:
@@ -5970,6 +6314,11 @@ packages:
     resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==}
     dev: true
 
+  /is-buffer@2.0.5:
+    resolution: {integrity: sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==}
+    engines: {node: '>=4'}
+    dev: true
+
   /is-callable@1.2.7:
     resolution: {integrity: sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==}
     engines: {node: '>= 0.4'}
@@ -6040,7 +6389,7 @@ packages:
   /is-lower-case@2.0.2:
     resolution: {integrity: sha512-bVcMJy4X5Og6VZfdOZstSexlEy20Sr0k/p/b2IlQJlfdKAQuMpiv5w2Ccxb8sKdRUNAG1PnHVHjFSdRDVS6NlQ==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.3.1
     dev: true
 
   /is-negative-zero@2.0.2:
@@ -6122,7 +6471,7 @@ packages:
   /is-upper-case@2.0.2:
     resolution: {integrity: sha512-44pxmxAvnnAOwBg4tHPnkfvgjPwbc5QIsSstNU+YcJ1ovxVzCWpSGosPJOZh/a1tdl81fbgnLc9LLv+x2ywbPQ==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.3.1
     dev: true
 
   /is-weakref@1.0.2:
@@ -6200,8 +6549,20 @@ packages:
       graceful-fs: 4.2.11
     dev: true
 
+  /jsonfile@6.1.0:
+    resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
+    dependencies:
+      universalify: 2.0.1
+    optionalDependencies:
+      graceful-fs: 4.2.11
+    dev: true
+
   /kolorist@1.8.0:
     resolution: {integrity: sha512-Y+60/zizpJ3HRH8DCss+q95yr6145JXZo46OTpFvDZWLfRCE4qChOyk1b26nMaNpfHHgxagk9dXT5OP0Tfe+dQ==}
+    dev: true
+
+  /libphonenumber-js@1.9.47:
+    resolution: {integrity: sha512-FIWFLJ2jUJi8SCztgd2k/isQHZedh7xuxOVifqFLwG/ogZtdH9TXFK92w/KWFj1lwoadqVedtLO3Jqp0q67PZw==}
     dev: true
 
   /locate-path@5.0.0:
@@ -6234,7 +6595,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.3.1
     dev: true
 
   /lru-cache@10.1.0:
@@ -6432,6 +6793,11 @@ packages:
   /object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /object-hash@3.0.0:
+    resolution: {integrity: sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==}
+    engines: {node: '>= 6'}
     dev: true
 
   /object-inspect@1.13.1:
@@ -6935,7 +7301,7 @@ packages:
   /sponge-case@1.0.1:
     resolution: {integrity: sha512-dblb9Et4DAtiZ5YSUZHLl4XhH4uK80GhAZrVXdN4O2P4gQ40Wa5UIOPUHlA/nFd2PLblBZWUioLMMAVrgpoYcA==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.3.1
     dev: true
 
   /streamsearch@1.1.0:
@@ -7042,13 +7408,13 @@ packages:
   /swap-case@2.0.2:
     resolution: {integrity: sha512-kc6S2YS/2yXbtkSMunBtKdah4VFETZ8Oh6ONSmSd9bRxhqTrtARUCBUiWXH3xVPpvR7tz2CSnkuXVE42EcGnMw==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.3.1
     dev: true
 
   /title-case@3.0.3:
     resolution: {integrity: sha512-e1zGYRvbffpcHIrnuqT0Dh+gEJtDaxDSoG4JAIpq4oDFyooziLBIiYQv0GBT4FUAnUop5uZ1hiIAj7oAF6sOCA==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.3.1
     dev: true
 
   /titleize@3.0.0:
@@ -7095,6 +7461,11 @@ packages:
 
   /ts-dedent@1.2.0:
     resolution: {integrity: sha512-6zSJp23uQI+Txyz5LlXMXAHpUhY4Hi0oluXny0OgIR7g/Cromq4vDBnhtbBdyIV34g0pgwxUvnvg+jLJe4c1NA==}
+    engines: {node: '>=6.10'}
+    dev: true
+
+  /ts-dedent@2.2.0:
+    resolution: {integrity: sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==}
     engines: {node: '>=6.10'}
     dev: true
 
@@ -7230,6 +7601,11 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
+  /universalify@2.0.1:
+    resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
+    engines: {node: '>= 10.0.0'}
+    dev: true
+
   /untildify@4.0.0:
     resolution: {integrity: sha512-KK8xQ1mkzZeg9inewmFVDNkg3l5LUhoq9kN6iWYB/CC9YMG8HA+c1Q8HwDe6dEX7kErrEVNVBO3fWsVq5iDgtw==}
     engines: {node: '>=8'}
@@ -7249,13 +7625,13 @@ packages:
   /upper-case-first@2.0.2:
     resolution: {integrity: sha512-514ppYHBaKwfJRK/pNC6c/OxfGa0obSnAl106u97Ed0I625Nin96KAjttZF6ZL3e1XLtphxnqrOi9iWgm+u+bg==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.3.1
     dev: true
 
   /upper-case@2.0.2:
     resolution: {integrity: sha512-KgdgDGJt2TpuwBUIjgG6lzw2GWFRCW9Qkfkiv0DxqHHLYJHmtmdUIKcZd8rHgFSjopVTlw6ggzCm1b8MFQwikg==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.3.1
     dev: true
 
   /uri-js@4.4.1:
