@@ -26,14 +26,14 @@ devDependencies:
     specifier: ^2.8.1
     version: 2.8.1(@babel/core@7.23.7)(preact@10.19.3)(vite@5.0.12)
   '@types/node':
-    specifier: ^20.11.5
-    version: 20.11.5
+    specifier: ^20.11.6
+    version: 20.11.6
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
   vite:
     specifier: ^5.0.12
-    version: 5.0.12(@types/node@20.11.5)
+    version: 5.0.12(@types/node@20.11.6)
 
 packages:
 
@@ -241,7 +241,7 @@ packages:
       '@aws-amplify/platform-core': 0.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
       '@aws-amplify/sandbox': 0.3.14(aws-cdk-lib@2.122.0)(aws-cdk@2.122.0)(constructs@10.3.0)(typescript@5.3.3)
       '@aws-sdk/credential-provider-ini': 3.496.0
-      '@aws-sdk/credential-providers': 3.496.0
+      '@aws-sdk/credential-providers': 3.498.0
       '@aws-sdk/region-config-resolver': 3.496.0
       '@aws-sdk/types': 3.496.0
       '@smithy/node-config-provider': 2.2.1
@@ -412,7 +412,7 @@ packages:
       '@aws-sdk/client-amplify': 3.496.0
       '@aws-sdk/client-cloudformation': 3.496.0
       '@aws-sdk/client-ssm': 3.496.0
-      '@aws-sdk/credential-providers': 3.496.0
+      '@aws-sdk/credential-providers': 3.498.0
       zod: 3.22.4
     transitivePeerDependencies:
       - aws-cdk-lib
@@ -507,8 +507,6 @@ packages:
       ts-dedent: 2.2.0
       universalify: 2.0.1
       zod: 3.22.4
-    transitivePeerDependencies:
-      - aws-crt
     dev: true
     bundledDependencies:
       - '@aws-amplify/backend-output-schemas'
@@ -581,7 +579,7 @@ packages:
       '@aws-amplify/platform-core': 0.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.496.0
       '@aws-sdk/client-cloudformation': 3.496.0
-      '@aws-sdk/client-s3': 3.496.0
+      '@aws-sdk/client-s3': 3.498.0
       '@aws-sdk/types': 3.496.0
       zod: 3.22.4
     transitivePeerDependencies:
@@ -599,7 +597,7 @@ packages:
       '@aws-amplify/graphql-docs-generator': 4.2.1
       '@aws-sdk/client-amplifyuibuilder': 3.496.0
       '@aws-sdk/client-appsync': 3.496.0
-      '@aws-sdk/client-s3': 3.496.0
+      '@aws-sdk/client-s3': 3.498.0
       '@graphql-codegen/core': 4.0.0(graphql@15.8.0)
       '@graphql-codegen/typescript': 2.8.8(graphql@15.8.0)
       graphql: 15.8.0
@@ -658,8 +656,6 @@ packages:
       ts-dedent: 2.2.0
       universalify: 2.0.1
       zod: 3.22.4
-    transitivePeerDependencies:
-      - aws-crt
     dev: true
     bundledDependencies:
       - '@aws-amplify/backend-output-schemas'
@@ -1012,8 +1008,8 @@ packages:
       '@aws-amplify/graphql-generator': 0.1.5
       '@aws-amplify/graphql-types-generator': 3.4.6
       '@aws-sdk/client-appsync': 3.496.0
-      '@aws-sdk/client-s3': 3.496.0
-      '@aws-sdk/credential-providers': 3.496.0
+      '@aws-sdk/client-s3': 3.498.0
+      '@aws-sdk/credential-providers': 3.498.0
       '@aws-sdk/types': 3.496.0
       graphql: 15.8.0
     transitivePeerDependencies:
@@ -1095,7 +1091,7 @@ packages:
       '@aws-amplify/deployed-backend-client': 0.3.9(aws-cdk-lib@2.122.0)(constructs@10.3.0)
       '@aws-amplify/platform-core': 0.4.3(aws-cdk-lib@2.122.0)(constructs@10.3.0)
       '@aws-sdk/client-cloudformation': 3.496.0
-      '@aws-sdk/credential-providers': 3.496.0
+      '@aws-sdk/credential-providers': 3.498.0
       '@aws-sdk/types': 3.496.0
       '@parcel/watcher': 2.4.0
       aws-cdk: 2.122.0
@@ -1141,7 +1137,7 @@ packages:
     resolution: {integrity: sha512-IzSgsrxUcsrejQbPVilIKy16kAT52EwB6zSaI+M3xxIhKh5+aldEyvI+z6erM7TCLB2BJsFrtHjp6/4/sr+3dA==}
     dependencies:
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.496.0
       tslib: 1.14.1
 
   /@aws-crypto/crc32c@3.0.0:
@@ -1414,8 +1410,8 @@ packages:
       - aws-crt
     dev: true
 
-  /@aws-sdk/client-cognito-identity@3.496.0:
-    resolution: {integrity: sha512-rb0Pv8jzJ8XBNmhKl/Up8jnaLWPKuW622s9RR9JyVEu/uUR5tyhdEJvEsS88A9a0+BTRt4G7X1VnUXWAgi8hxQ==}
+  /@aws-sdk/client-cognito-identity@3.498.0:
+    resolution: {integrity: sha512-v+OEcWep69mZGSralXYpyQQB2J91LizbsdvwizLxVPZ6dxnJKS/P/Gbugoqpu3VMVUqFGZ627HwByJ3I1YLV3A==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -1598,8 +1594,8 @@ packages:
       - aws-crt
     dev: false
 
-  /@aws-sdk/client-s3@3.496.0:
-    resolution: {integrity: sha512-Q16iIP8SmM/7uWHbTCRnvXgM+RxgEDHQmkKL1bvdPLhfu4q1+RwWwJ/WS+1amwQtwvWc8Z51W4XEsokJmqOYUA==}
+  /@aws-sdk/client-s3@3.498.0:
+    resolution: {integrity: sha512-M1nDbKYW04SkPsQafp6JTqfCeiRy4ELHBpX+DRwNmb7MsPy2aBk+rjbREBt233xDCrd8C9HswJhJ18U37KQTgA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha1-browser': 3.0.0
@@ -1617,7 +1613,7 @@ packages:
       '@aws-sdk/middleware-recursion-detection': 3.496.0
       '@aws-sdk/middleware-sdk-s3': 3.496.0
       '@aws-sdk/middleware-signing': 3.496.0
-      '@aws-sdk/middleware-ssec': 3.496.0
+      '@aws-sdk/middleware-ssec': 3.498.0
       '@aws-sdk/middleware-user-agent': 3.496.0
       '@aws-sdk/region-config-resolver': 3.496.0
       '@aws-sdk/signature-v4-multi-region': 3.496.0
@@ -2005,11 +2001,11 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@aws-sdk/credential-provider-cognito-identity@3.496.0:
-    resolution: {integrity: sha512-LIB9hom5mqGxk+hdbpZnxIJ4F1c5ZuY5uu3aWy9luowci03Z5nzYYepzBwpoE5Lk102gqVKeia//mRr25blzWQ==}
+  /@aws-sdk/credential-provider-cognito-identity@3.498.0:
+    resolution: {integrity: sha512-A4XgSkt+4hxmLOPMdw5vHgL2mFRkpw7/5uGMU2GfxErZGds401SyLdJBsCj0+A4dJ0LlEs+5owkYZHVR6jBEbg==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@aws-sdk/client-cognito-identity': 3.496.0
+      '@aws-sdk/client-cognito-identity': 3.498.0
       '@aws-sdk/types': 3.496.0
       '@smithy/property-provider': 2.1.1
       '@smithy/types': 2.9.1
@@ -2282,14 +2278,14 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@aws-sdk/credential-providers@3.496.0:
-    resolution: {integrity: sha512-JqdSHFY3t+QMdS7Iok/ymvU3bZjVY7YuX9xroJJjMM/gkw+TxnJtVw/uIGsmoK1FT2KX+Dg4i/gmVyQAWubSJw==}
+  /@aws-sdk/credential-providers@3.498.0:
+    resolution: {integrity: sha512-dkOJMtHeR8V9OFnXImDCAGLE27oEJEzx6BQTfE2+FTxxj3OKeoRa47ikZOuZpeygjr1niOydZy+iSfpjGIMiCQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@aws-sdk/client-cognito-identity': 3.496.0
+      '@aws-sdk/client-cognito-identity': 3.498.0
       '@aws-sdk/client-sso': 3.496.0
       '@aws-sdk/client-sts': 3.496.0
-      '@aws-sdk/credential-provider-cognito-identity': 3.496.0
+      '@aws-sdk/credential-provider-cognito-identity': 3.498.0
       '@aws-sdk/credential-provider-env': 3.496.0
       '@aws-sdk/credential-provider-http': 3.496.0
       '@aws-sdk/credential-provider-ini': 3.496.0
@@ -2513,8 +2509,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@aws-sdk/middleware-ssec@3.496.0:
-    resolution: {integrity: sha512-6RUFEgGqKGq8N8W9tsctS8KRlYnmD/yiExb/LvblCJqV1DWoD0psRFWNz8TQZtujHklG5dHjuq+aN/qicjBNdw==}
+  /@aws-sdk/middleware-ssec@3.498.0:
+    resolution: {integrity: sha512-sWujXgzeTqMZzj/pRYEnnEbSzhBosqw9DXHOY1Mg2igI9NEfGlB7lPARp6aKmCaYlP3Bcj2X86vKCqF53mbyig==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-sdk/types': 3.496.0
@@ -3835,7 +3831,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.8.0):
@@ -3846,7 +3842,7 @@ packages:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.6.2
+      tslib: 2.4.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3956,7 +3952,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.1.5
       '@types/mute-stream': 0.0.4
-      '@types/node': 20.11.5
+      '@types/node': 20.11.6
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -4271,7 +4267,7 @@ packages:
       magic-string: 0.30.5
       node-html-parser: 6.1.12
       resolve: 1.22.8
-      vite: 5.0.12(@types/node@20.11.5)
+      vite: 5.0.12(@types/node@20.11.6)
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -4305,7 +4301,7 @@ packages:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.19.3
-      vite: 5.0.12(@types/node@20.11.5)
+      vite: 5.0.12(@types/node@20.11.6)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4876,11 +4872,11 @@ packages:
   /@types/mute-stream@0.0.4:
     resolution: {integrity: sha512-CPM9nzrCPPJHQNA9keH9CVkVI+WR5kMa+7XEs5jcGQ0VoAGnLv242w8lIVgwAEfmE4oufJRaTc9PNLQl0ioAow==}
     dependencies:
-      '@types/node': 20.11.5
+      '@types/node': 20.11.6
     dev: true
 
-  /@types/node@20.11.5:
-    resolution: {integrity: sha512-g557vgQjUUfN76MZAN/dt1z3dzcUsimuysco0KeluHgrPdJXkP/XdAURgyO2W9fZWHRtRBiVKzKn8vyOAwlG+w==}
+  /@types/node@20.11.6:
+    resolution: {integrity: sha512-+EOokTnksGVgip2PbYbr3xnR7kZigh4LbybAfBAw5BpnQ+FqBYUsvCEjYd70IXKlbohQ64mzEYmMtlWUY8q//Q==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -6107,7 +6103,7 @@ packages:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.3.1
+      tslib: 2.4.1
     dev: true
 
   /graphql-transformer-common@4.27.1:
@@ -6389,7 +6385,7 @@ packages:
   /is-lower-case@2.0.2:
     resolution: {integrity: sha512-bVcMJy4X5Og6VZfdOZstSexlEy20Sr0k/p/b2IlQJlfdKAQuMpiv5w2Ccxb8sKdRUNAG1PnHVHjFSdRDVS6NlQ==}
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.4.1
     dev: true
 
   /is-negative-zero@2.0.2:
@@ -6471,7 +6467,7 @@ packages:
   /is-upper-case@2.0.2:
     resolution: {integrity: sha512-44pxmxAvnnAOwBg4tHPnkfvgjPwbc5QIsSstNU+YcJ1ovxVzCWpSGosPJOZh/a1tdl81fbgnLc9LLv+x2ywbPQ==}
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.4.1
     dev: true
 
   /is-weakref@1.0.2:
@@ -6595,7 +6591,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.4.1
     dev: true
 
   /lru-cache@10.1.0:
@@ -7301,7 +7297,7 @@ packages:
   /sponge-case@1.0.1:
     resolution: {integrity: sha512-dblb9Et4DAtiZ5YSUZHLl4XhH4uK80GhAZrVXdN4O2P4gQ40Wa5UIOPUHlA/nFd2PLblBZWUioLMMAVrgpoYcA==}
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.4.1
     dev: true
 
   /streamsearch@1.1.0:
@@ -7408,13 +7404,13 @@ packages:
   /swap-case@2.0.2:
     resolution: {integrity: sha512-kc6S2YS/2yXbtkSMunBtKdah4VFETZ8Oh6ONSmSd9bRxhqTrtARUCBUiWXH3xVPpvR7tz2CSnkuXVE42EcGnMw==}
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.4.1
     dev: true
 
   /title-case@3.0.3:
     resolution: {integrity: sha512-e1zGYRvbffpcHIrnuqT0Dh+gEJtDaxDSoG4JAIpq4oDFyooziLBIiYQv0GBT4FUAnUop5uZ1hiIAj7oAF6sOCA==}
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.4.1
     dev: true
 
   /titleize@3.0.0:
@@ -7625,13 +7621,13 @@ packages:
   /upper-case-first@2.0.2:
     resolution: {integrity: sha512-514ppYHBaKwfJRK/pNC6c/OxfGa0obSnAl106u97Ed0I625Nin96KAjttZF6ZL3e1XLtphxnqrOi9iWgm+u+bg==}
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.4.1
     dev: true
 
   /upper-case@2.0.2:
     resolution: {integrity: sha512-KgdgDGJt2TpuwBUIjgG6lzw2GWFRCW9Qkfkiv0DxqHHLYJHmtmdUIKcZd8rHgFSjopVTlw6ggzCm1b8MFQwikg==}
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.4.1
     dev: true
 
   /uri-js@4.4.1:
@@ -7657,7 +7653,7 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /vite@5.0.12(@types/node@20.11.5):
+  /vite@5.0.12(@types/node@20.11.6):
     resolution: {integrity: sha512-4hsnEkG3q0N4Tzf1+t6NdN9dg/L3BM+q8SWgbSPnJvrgH2kgdyzfVJwbR1ic69/4uMJJ/3dqDZZE5/WwqW8U1w==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -7685,7 +7681,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.5
+      '@types/node': 20.11.6
       esbuild: 0.19.12
       postcss: 8.4.33
       rollup: 4.9.6
