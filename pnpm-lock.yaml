@@ -26,14 +26,14 @@ devDependencies:
     specifier: ^2.8.1
     version: 2.8.1(@babel/core@7.23.9)(preact@10.19.3)(vite@5.0.12)
   '@types/node':
-    specifier: ^20.11.6
-    version: 20.11.6
+    specifier: ^20.11.7
+    version: 20.11.7
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
   vite:
     specifier: ^5.0.12
-    version: 5.0.12(@types/node@20.11.6)
+    version: 5.0.12(@types/node@20.11.7)
 
 packages:
 
@@ -446,7 +446,7 @@ packages:
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/types': 3.398.0
       '@smithy/util-hex-encoding': 2.0.0
-      '@types/uuid': 9.0.7
+      '@types/uuid': 9.0.8
       js-cookie: 3.0.5
       rxjs: 7.8.1
       tslib: 2.6.2
@@ -3620,7 +3620,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.1.5
       '@types/mute-stream': 0.0.4
-      '@types/node': 20.11.6
+      '@types/node': 20.11.7
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -3935,7 +3935,7 @@ packages:
       magic-string: 0.30.5
       node-html-parser: 6.1.12
       resolve: 1.22.8
-      vite: 5.0.12(@types/node@20.11.6)
+      vite: 5.0.12(@types/node@20.11.7)
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -3969,7 +3969,7 @@ packages:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.19.3
-      vite: 5.0.12(@types/node@20.11.6)
+      vite: 5.0.12(@types/node@20.11.7)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4540,17 +4540,17 @@ packages:
   /@types/mute-stream@0.0.4:
     resolution: {integrity: sha512-CPM9nzrCPPJHQNA9keH9CVkVI+WR5kMa+7XEs5jcGQ0VoAGnLv242w8lIVgwAEfmE4oufJRaTc9PNLQl0ioAow==}
     dependencies:
-      '@types/node': 20.11.6
+      '@types/node': 20.11.7
     dev: true
 
-  /@types/node@20.11.6:
-    resolution: {integrity: sha512-+EOokTnksGVgip2PbYbr3xnR7kZigh4LbybAfBAw5BpnQ+FqBYUsvCEjYd70IXKlbohQ64mzEYmMtlWUY8q//Q==}
+  /@types/node@20.11.7:
+    resolution: {integrity: sha512-GPmeN1C3XAyV5uybAf4cMLWT9fDWcmQhZVtMFu7OR32WjrqGG+Wnk2V1d0bmtUyE/Zy1QJ9BxyiTih9z8Oks8A==}
     dependencies:
       undici-types: 5.26.5
     dev: true
 
-  /@types/uuid@9.0.7:
-    resolution: {integrity: sha512-WUtIVRUZ9i5dYXefDEAI7sh9/O7jGvHg7Df/5O/gtH3Yabe5odI3UWopVR1qbPXQtvOxWu3mM4XxlYeZtMWF4g==}
+  /@types/uuid@9.0.8:
+    resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
     dev: false
 
   /@types/wrap-ansi@3.0.0:
@@ -4864,7 +4864,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001580
-      electron-to-chromium: 1.4.646
+      electron-to-chromium: 1.4.647
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
     dev: true
@@ -5293,8 +5293,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.646:
-    resolution: {integrity: sha512-vThkQ0JuF45qT/20KbRgM56lV7IuGt7SjhawQ719PDHzhP84KAO1WJoaxgCoAffKHK47FmVKP1Fqizx7CwK1SA==}
+  /electron-to-chromium@1.4.647:
+    resolution: {integrity: sha512-Z/fTNGwc45WrYQhPaEcz5tAJuZZ8G7S/DBnhS6Kgp4BxnS40Z/HqlJ0hHg3Z79IGVzuVartIlTcjw/cQbPLgOw==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -6233,7 +6233,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.2
     dev: true
 
   /lru-cache@10.2.0:
@@ -7248,13 +7248,13 @@ packages:
   /upper-case-first@2.0.2:
     resolution: {integrity: sha512-514ppYHBaKwfJRK/pNC6c/OxfGa0obSnAl106u97Ed0I625Nin96KAjttZF6ZL3e1XLtphxnqrOi9iWgm+u+bg==}
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.2
     dev: true
 
   /upper-case@2.0.2:
     resolution: {integrity: sha512-KgdgDGJt2TpuwBUIjgG6lzw2GWFRCW9Qkfkiv0DxqHHLYJHmtmdUIKcZd8rHgFSjopVTlw6ggzCm1b8MFQwikg==}
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.2
     dev: true
 
   /uri-js@4.4.1:
@@ -7280,7 +7280,7 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /vite@5.0.12(@types/node@20.11.6):
+  /vite@5.0.12(@types/node@20.11.7):
     resolution: {integrity: sha512-4hsnEkG3q0N4Tzf1+t6NdN9dg/L3BM+q8SWgbSPnJvrgH2kgdyzfVJwbR1ic69/4uMJJ/3dqDZZE5/WwqW8U1w==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -7308,7 +7308,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.6
+      '@types/node': 20.11.7
       esbuild: 0.19.12
       postcss: 8.4.33
       rollup: 4.9.6
