@@ -18,10 +18,10 @@ dependencies:
 devDependencies:
   '@aws-amplify/backend':
     specifier: ^0.11.0
-    version: 0.11.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
+    version: 0.11.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
   '@aws-amplify/backend-cli':
     specifier: ^0.11.1
-    version: 0.11.1(@aws-sdk/credential-provider-node@3.511.0)(@aws-sdk/types@3.511.0)(aws-cdk-lib@2.126.0)(aws-cdk@2.126.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
+    version: 0.11.1(@aws-sdk/credential-provider-node@3.511.0)(@aws-sdk/types@3.511.0)(aws-cdk-lib@2.127.0)(aws-cdk@2.127.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
   '@preact/preset-vite':
     specifier: ^2.8.1
     version: 2.8.1(@babel/core@7.23.9)(preact@10.19.4)(vite@5.1.1)
@@ -159,17 +159,17 @@ packages:
       - supports-color
     dev: true
 
-  /@aws-amplify/auth-construct-alpha@0.5.6(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4):
+  /@aws-amplify/auth-construct-alpha@0.5.6(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4):
     resolution: {integrity: sha512-1AfrqkyIesoTps9ShICv9wSkGkJ3oa5J7j10rMzXEdU8kxWaGEWBobWb75OlFCz8X6Rls+EZzV0amy0Pq6B5GQ==}
     peerDependencies:
       aws-cdk-lib: ^2.110.1
       constructs: ^10.0.0
     dependencies:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
-      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-sdk/util-arn-parser': 3.495.0
-      aws-cdk-lib: 2.126.0(constructs@10.3.0)
+      aws-cdk-lib: 2.127.0(constructs@10.3.0)
       constructs: 10.3.0
     transitivePeerDependencies:
       - aws-crt
@@ -185,39 +185,39 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-amplify/backend-auth@0.4.7(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4):
+  /@aws-amplify/backend-auth@0.4.7(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4):
     resolution: {integrity: sha512-4fZXlHBSF2/ZHPZjib1ypP8PbwdT5DfDZlmb92LPcLh1GNSmzQLYCVg4WJwUbHOTVEZcjJJju/L8k1XKuJdqtA==}
     peerDependencies:
       aws-cdk-lib: ^2.110.1
       constructs: ^10.0.0
     dependencies:
-      '@aws-amplify/auth-construct-alpha': 0.5.6(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      aws-cdk-lib: 2.126.0(constructs@10.3.0)
+      '@aws-amplify/auth-construct-alpha': 0.5.6(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.127.0(constructs@10.3.0)
       constructs: 10.3.0
     transitivePeerDependencies:
       - aws-crt
       - zod
     dev: true
 
-  /@aws-amplify/backend-cli@0.11.1(@aws-sdk/credential-provider-node@3.511.0)(@aws-sdk/types@3.511.0)(aws-cdk-lib@2.126.0)(aws-cdk@2.126.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
+  /@aws-amplify/backend-cli@0.11.1(@aws-sdk/credential-provider-node@3.511.0)(@aws-sdk/types@3.511.0)(aws-cdk-lib@2.127.0)(aws-cdk@2.127.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-7EKcGIkPNonccEjDaXBAtc40ElEyXypv4Q8G0aACxROtpD2nrfQyy2pZBhSbOD0/WkXu079n+GtCYnIMvmaILg==}
     engines: {node: '>=18.16.0'}
     hasBin: true
     peerDependencies:
       '@aws-sdk/types': ^3.465.0
     dependencies:
-      '@aws-amplify/backend-deployer': 0.5.0(aws-cdk-lib@2.126.0)(aws-cdk@2.126.0)(constructs@10.3.0)(typescript@5.3.3)
+      '@aws-amplify/backend-deployer': 0.5.0(aws-cdk-lib@2.127.0)(aws-cdk@2.127.0)(constructs@10.3.0)(typescript@5.3.3)
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
-      '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-amplify/cli-core': 0.4.0
-      '@aws-amplify/client-config': 0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/client-config': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-amplify/form-generator': 0.7.0(react-dom@18.2.0)(react@18.2.0)
-      '@aws-amplify/model-generator': 0.4.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      '@aws-amplify/sandbox': 0.5.1(aws-cdk-lib@2.126.0)(aws-cdk@2.126.0)(constructs@10.3.0)(typescript@5.3.3)
+      '@aws-amplify/model-generator': 0.4.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      '@aws-amplify/sandbox': 0.5.1(aws-cdk-lib@2.127.0)(aws-cdk@2.127.0)(constructs@10.3.0)(typescript@5.3.3)
       '@aws-sdk/credential-provider-ini': 3.511.0(@aws-sdk/credential-provider-node@3.511.0)
       '@aws-sdk/credential-providers': 3.511.0
       '@aws-sdk/region-config-resolver': 3.511.0
@@ -243,33 +243,33 @@ packages:
       - typescript
     dev: true
 
-  /@aws-amplify/backend-data@0.9.6(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4):
+  /@aws-amplify/backend-data@0.9.6(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4):
     resolution: {integrity: sha512-GCoftQatjuWC4VarbiM/2gUrynZPlOyPkIWE8s8is0PEEU7dKkdj3dcQUCzWlE2KCUWjnNDV7kI4JLqWGa5bDw==}
     peerDependencies:
       aws-cdk-lib: ^2.110.1
       constructs: ^10.0.0
     dependencies:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
-      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/data-construct': 1.5.6(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/data-construct': 1.5.6(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-amplify/data-schema-types': 0.6.12
-      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      aws-cdk-lib: 2.126.0(constructs@10.3.0)
+      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.127.0(constructs@10.3.0)
       constructs: 10.3.0
     transitivePeerDependencies:
       - aws-crt
       - zod
     dev: true
 
-  /@aws-amplify/backend-deployer@0.5.0(aws-cdk-lib@2.126.0)(aws-cdk@2.126.0)(constructs@10.3.0)(typescript@5.3.3):
+  /@aws-amplify/backend-deployer@0.5.0(aws-cdk-lib@2.127.0)(aws-cdk@2.127.0)(constructs@10.3.0)(typescript@5.3.3):
     resolution: {integrity: sha512-T9wkQSO4pO30PIFj/SOvP4IE5jUuVMNcvrJ2IPdC3xVNFO39KL8nBJsgNH4fplUa6ezwsnTaMrnbAv/hIqzT/w==}
     peerDependencies:
       aws-cdk: ^2.110.1
       typescript: ^5.0.0
     dependencies:
-      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      aws-cdk: 2.126.0
+      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      aws-cdk: 2.127.0
       execa: 8.0.1
       tsx: 4.7.1
       typescript: 5.3.3
@@ -279,15 +279,15 @@ packages:
       - constructs
     dev: true
 
-  /@aws-amplify/backend-function@0.7.1(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4):
+  /@aws-amplify/backend-function@0.7.1(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4):
     resolution: {integrity: sha512-rp/MnRQPkkT7vszOYvaMXY5HiGv3ViT+wLPx71tJ87iQ1dkm6jyb3nSqUHpYQ7u8XOgdvEDHQ1rCqzjHLemhoA==}
     peerDependencies:
       aws-cdk-lib: ^2.110.1
       constructs: ^10.0.0
     dependencies:
-      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      aws-cdk-lib: 2.126.0(constructs@10.3.0)
+      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.127.0(constructs@10.3.0)
       constructs: 10.3.0
       execa: 8.0.1
     transitivePeerDependencies:
@@ -303,25 +303,25 @@ packages:
       zod: 3.22.4
     dev: true
 
-  /@aws-amplify/backend-output-storage@0.3.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4):
+  /@aws-amplify/backend-output-storage@0.3.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4):
     resolution: {integrity: sha512-X/6bQDxmNU9PDocgs49gNwgiwEBuny9Eesd1/xaMwvovghdNqWJUEz3wjZ9ZeBy9heEMl4mR4hVWaej688rKgg==}
     peerDependencies:
       aws-cdk-lib: ^2.110.1
     dependencies:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
-      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      aws-cdk-lib: 2.126.0(constructs@10.3.0)
+      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.127.0(constructs@10.3.0)
     transitivePeerDependencies:
       - aws-crt
       - constructs
       - zod
     dev: true
 
-  /@aws-amplify/backend-secret@0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0):
+  /@aws-amplify/backend-secret@0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0):
     resolution: {integrity: sha512-HOcjD7BOr2nrxr6mX8Gj2GcgmlA6BxUDY4PWZYkX82V5sAI+bmnEEZZT0FJM8U74mUFhvIH1D/rlGWwMIWCfYQ==}
     dependencies:
-      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-sdk/client-ssm': 3.511.0
     transitivePeerDependencies:
       - aws-cdk-lib
@@ -329,41 +329,41 @@ packages:
       - constructs
     dev: true
 
-  /@aws-amplify/backend-storage@0.5.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4):
+  /@aws-amplify/backend-storage@0.5.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4):
     resolution: {integrity: sha512-++HYy8m4Ss4yE2ypuI/+Y5C8dgL+lNPTdR3MscE7y9fYP1ZsygKPjttZsWqmsugW/OMSjRzEB7Yhtyxj9PdqIQ==}
     peerDependencies:
       aws-cdk-lib: ^2.110.1
       constructs: ^10.0.0
     dependencies:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
-      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      aws-cdk-lib: 2.126.0(constructs@10.3.0)
+      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.127.0(constructs@10.3.0)
       constructs: 10.3.0
     transitivePeerDependencies:
       - aws-crt
       - zod
     dev: true
 
-  /@aws-amplify/backend@0.11.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4):
+  /@aws-amplify/backend@0.11.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4):
     resolution: {integrity: sha512-mnSFa8aN3/VTwPmE0LwxzrzG96JTb30DoA6AOtbSDvoGMV5C4eqtHweJtf2hw0veuuAFl72uPrgycvRI7Qjxhw==}
     peerDependencies:
       aws-cdk-lib: ^2.110.1
       constructs: ^10.0.0
     dependencies:
-      '@aws-amplify/backend-auth': 0.4.7(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/backend-data': 0.9.6(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/backend-function': 0.7.1(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/backend-auth': 0.4.7(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/backend-data': 0.9.6(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/backend-function': 0.7.1(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
-      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      '@aws-amplify/backend-storage': 0.5.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/client-config': 0.7.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      '@aws-amplify/backend-storage': 0.5.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/client-config': 0.7.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-amplify/data-schema': 0.12.14
-      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.511.0
-      aws-cdk-lib: 2.126.0(constructs@10.3.0)
+      aws-cdk-lib: 2.127.0(constructs@10.3.0)
       constructs: 10.3.0
     transitivePeerDependencies:
       - aws-crt
@@ -379,13 +379,13 @@ packages:
       execa: 8.0.1
     dev: true
 
-  /@aws-amplify/client-config@0.7.0(aws-cdk-lib@2.126.0)(constructs@10.3.0):
+  /@aws-amplify/client-config@0.7.0(aws-cdk-lib@2.127.0)(constructs@10.3.0):
     resolution: {integrity: sha512-9/+B2LuZUpw4lzxnhJBucu0pJiW5GIxNcvn10K0GSliLuAac04i5ztYivNuKT0nYgObScmgktiSK28bZdwbiqA==}
     dependencies:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
-      '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      '@aws-amplify/model-generator': 0.4.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      '@aws-amplify/model-generator': 0.4.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.511.0
       '@aws-sdk/client-cloudformation': 3.511.0
       '@aws-sdk/client-ssm': 3.511.0
@@ -399,13 +399,13 @@ packages:
       - supports-color
     dev: true
 
-  /@aws-amplify/client-config@0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0):
+  /@aws-amplify/client-config@0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0):
     resolution: {integrity: sha512-h7Gu6pow1OxuF7FNFplmVsdb+kxy5XNsAopMU5MS1uxKAjGAYiovGWoxLXJ42P7cLRhy9cd7c9AeZgQz487TRA==}
     dependencies:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
-      '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      '@aws-amplify/model-generator': 0.4.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      '@aws-amplify/model-generator': 0.4.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.511.0
       '@aws-sdk/client-cloudformation': 3.511.0
       '@aws-sdk/client-ssm': 3.511.0
@@ -458,14 +458,14 @@ packages:
       uuid: 9.0.1
     dev: false
 
-  /@aws-amplify/data-construct@1.5.6(aws-cdk-lib@2.126.0)(constructs@10.3.0):
+  /@aws-amplify/data-construct@1.5.6(aws-cdk-lib@2.127.0)(constructs@10.3.0):
     resolution: {integrity: sha512-37cbiYlk/2AjpiQbM9bSTNx3YNsauRR1a6+gTp6PBChKZ/ETSoDwDzxdLV85Ohjs5vtJG2oSfqlc3Nab/nRa9Q==}
     peerDependencies:
       aws-cdk-lib: ^2.80.0
       constructs: ^10.0.5
     dependencies:
-      '@aws-amplify/graphql-api-construct': 1.5.6(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      aws-cdk-lib: 2.126.0(constructs@10.3.0)
+      '@aws-amplify/graphql-api-construct': 1.5.6(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      aws-cdk-lib: 2.127.0(constructs@10.3.0)
       constructs: 10.3.0
     dev: true
     bundledDependencies:
@@ -538,11 +538,11 @@ packages:
       ulid: 2.3.0
     dev: false
 
-  /@aws-amplify/deployed-backend-client@0.3.10(aws-cdk-lib@2.126.0)(constructs@10.3.0):
+  /@aws-amplify/deployed-backend-client@0.3.10(aws-cdk-lib@2.127.0)(constructs@10.3.0):
     resolution: {integrity: sha512-fnJzlmWTTXXbi1sFkk8z95bo0/2u567rlyiSBYlBYj45WR+vhYLcttVaVVcF06KDNbr5WaNOzYZYJD4kW5MMjg==}
     dependencies:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
-      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.511.0
       '@aws-sdk/client-cloudformation': 3.511.0
       '@aws-sdk/client-s3': 3.511.0
@@ -577,13 +577,13 @@ packages:
       - supports-color
     dev: true
 
-  /@aws-amplify/graphql-api-construct@1.5.6(aws-cdk-lib@2.126.0)(constructs@10.3.0):
+  /@aws-amplify/graphql-api-construct@1.5.6(aws-cdk-lib@2.127.0)(constructs@10.3.0):
     resolution: {integrity: sha512-koMV4QmUq2Zi6a01WgRgOXzrACQA/UfIFaTVGUsLqdXz4CfYcOLQoH7UadIjS9K8eDBvEwXVRJHUscdG75Z+yQ==}
     peerDependencies:
       aws-cdk-lib: ^2.80.0
       constructs: ^10.0.5
     dependencies:
-      aws-cdk-lib: 2.126.0(constructs@10.3.0)
+      aws-cdk-lib: 2.127.0(constructs@10.3.0)
       constructs: 10.3.0
     dev: true
     bundledDependencies:
@@ -672,11 +672,11 @@ packages:
       yargs: 15.4.1
     dev: true
 
-  /@aws-amplify/model-generator@0.4.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)(zod@3.22.4):
+  /@aws-amplify/model-generator@0.4.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4):
     resolution: {integrity: sha512-m44LJ34jYvX55eSfWKWzSx+ibYMvHBHs4EtrguxIeCzczgY7OrPRJdup+wp+BnPsYKmtyyYvDJ5jAYtwfk7Tww==}
     dependencies:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
-      '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-amplify/graphql-generator': 0.2.4
       '@aws-amplify/graphql-types-generator': 3.4.6
       '@aws-sdk/client-appsync': 3.511.0
@@ -703,10 +703,10 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@aws-amplify/platform-core@0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0):
+  /@aws-amplify/platform-core@0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0):
     resolution: {integrity: sha512-FQb4nScw+30e2G44Fl1SMqe3yGWMtds02Drnpkh+egM3Ofd0//bDRD2uKqDPckVPulyX+g4pAuAq4Z30hwjQCQ==}
     dependencies:
-      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-sdk/client-sts': 3.445.0
       is-ci: 3.0.1
       lodash.mergewith: 4.6.2
@@ -718,32 +718,32 @@ packages:
       - constructs
     dev: true
 
-  /@aws-amplify/plugin-types@0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0):
+  /@aws-amplify/plugin-types@0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0):
     resolution: {integrity: sha512-38w0dV2dS40uZB4gYa7sc+YnoLtRKdfhHDKpCqSx5ml/rq1PvzEcExiSfrPddC7/ZBLr0IUZH74evVCHzOcPDg==}
     peerDependencies:
       aws-cdk-lib: ^2.110.1
       constructs: ^10.0.0
     dependencies:
-      aws-cdk-lib: 2.126.0(constructs@10.3.0)
+      aws-cdk-lib: 2.127.0(constructs@10.3.0)
       constructs: 10.3.0
     dev: true
 
-  /@aws-amplify/sandbox@0.5.1(aws-cdk-lib@2.126.0)(aws-cdk@2.126.0)(constructs@10.3.0)(typescript@5.3.3):
+  /@aws-amplify/sandbox@0.5.1(aws-cdk-lib@2.127.0)(aws-cdk@2.127.0)(constructs@10.3.0)(typescript@5.3.3):
     resolution: {integrity: sha512-rJE19S0raAuKP1W1NPxcIqF1avQKNQLBcFhaYXJLJmScjNnp4rzTjdCISSAaFnRK8OVYTDl7juf36Eb6oxOT6g==}
     peerDependencies:
       aws-cdk: ^2.110.1
     dependencies:
-      '@aws-amplify/backend-deployer': 0.5.0(aws-cdk-lib@2.126.0)(aws-cdk@2.126.0)(constructs@10.3.0)(typescript@5.3.3)
-      '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/backend-deployer': 0.5.0(aws-cdk-lib@2.127.0)(aws-cdk@2.127.0)(constructs@10.3.0)(typescript@5.3.3)
+      '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-amplify/cli-core': 0.4.0
-      '@aws-amplify/client-config': 0.8.0(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.126.0)(constructs@10.3.0)
-      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.126.0)(constructs@10.3.0)
+      '@aws-amplify/client-config': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-sdk/client-cloudformation': 3.511.0
       '@aws-sdk/credential-providers': 3.511.0
       '@aws-sdk/types': 3.511.0
       '@parcel/watcher': 2.4.0
-      aws-cdk: 2.126.0
+      aws-cdk: 2.127.0
       debounce-promise: 3.1.2
       glob: 10.3.10
       open: 9.1.0
@@ -3993,104 +3993,104 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rollup/rollup-android-arm-eabi@4.9.6:
-    resolution: {integrity: sha512-MVNXSSYN6QXOulbHpLMKYi60ppyO13W9my1qogeiAqtjb2yR4LSmfU2+POvDkLzhjYLXz9Rf9+9a3zFHW1Lecg==}
+  /@rollup/rollup-android-arm-eabi@4.10.0:
+    resolution: {integrity: sha512-/MeDQmcD96nVoRumKUljsYOLqfv1YFJps+0pTrb2Z9Nl/w5qNUysMaWQsrd1mvAlNT4yza1iVyIu4Q4AgF6V3A==}
     cpu: [arm]
     os: [android]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-android-arm64@4.9.6:
-    resolution: {integrity: sha512-T14aNLpqJ5wzKNf5jEDpv5zgyIqcpn1MlwCrUXLrwoADr2RkWA0vOWP4XxbO9aiO3dvMCQICZdKeDrFl7UMClw==}
+  /@rollup/rollup-android-arm64@4.10.0:
+    resolution: {integrity: sha512-lvu0jK97mZDJdpZKDnZI93I0Om8lSDaiPx3OiCk0RXn3E8CMPJNS/wxjAvSJJzhhZpfjXsjLWL8LnS6qET4VNQ==}
     cpu: [arm64]
     os: [android]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-darwin-arm64@4.9.6:
-    resolution: {integrity: sha512-CqNNAyhRkTbo8VVZ5R85X73H3R5NX9ONnKbXuHisGWC0qRbTTxnF1U4V9NafzJbgGM0sHZpdO83pLPzq8uOZFw==}
+  /@rollup/rollup-darwin-arm64@4.10.0:
+    resolution: {integrity: sha512-uFpayx8I8tyOvDkD7X6n0PriDRWxcqEjqgtlxnUA/G9oS93ur9aZ8c8BEpzFmsed1TH5WZNG5IONB8IiW90TQg==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-darwin-x64@4.9.6:
-    resolution: {integrity: sha512-zRDtdJuRvA1dc9Mp6BWYqAsU5oeLixdfUvkTHuiYOHwqYuQ4YgSmi6+/lPvSsqc/I0Omw3DdICx4Tfacdzmhog==}
+  /@rollup/rollup-darwin-x64@4.10.0:
+    resolution: {integrity: sha512-nIdCX03qFKoR/MwQegQBK+qZoSpO3LESurVAC6s6jazLA1Mpmgzo3Nj3H1vydXp/JM29bkCiuF7tDuToj4+U9Q==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-linux-arm-gnueabihf@4.9.6:
-    resolution: {integrity: sha512-oNk8YXDDnNyG4qlNb6is1ojTOGL/tRhbbKeE/YuccItzerEZT68Z9gHrY3ROh7axDc974+zYAPxK5SH0j/G+QQ==}
+  /@rollup/rollup-linux-arm-gnueabihf@4.10.0:
+    resolution: {integrity: sha512-Fz7a+y5sYhYZMQFRkOyCs4PLhICAnxRX/GnWYReaAoruUzuRtcf+Qnw+T0CoAWbHCuz2gBUwmWnUgQ67fb3FYw==}
     cpu: [arm]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-linux-arm64-gnu@4.9.6:
-    resolution: {integrity: sha512-Z3O60yxPtuCYobrtzjo0wlmvDdx2qZfeAWTyfOjEDqd08kthDKexLpV97KfAeUXPosENKd8uyJMRDfFMxcYkDQ==}
+  /@rollup/rollup-linux-arm64-gnu@4.10.0:
+    resolution: {integrity: sha512-yPtF9jIix88orwfTi0lJiqINnlWo6p93MtZEoaehZnmCzEmLL0eqjA3eGVeyQhMtxdV+Mlsgfwhh0+M/k1/V7Q==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-linux-arm64-musl@4.9.6:
-    resolution: {integrity: sha512-gpiG0qQJNdYEVad+1iAsGAbgAnZ8j07FapmnIAQgODKcOTjLEWM9sRb+MbQyVsYCnA0Im6M6QIq6ax7liws6eQ==}
+  /@rollup/rollup-linux-arm64-musl@4.10.0:
+    resolution: {integrity: sha512-9GW9yA30ib+vfFiwjX+N7PnjTnCMiUffhWj4vkG4ukYv1kJ4T9gHNg8zw+ChsOccM27G9yXrEtMScf1LaCuoWQ==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-linux-riscv64-gnu@4.9.6:
-    resolution: {integrity: sha512-+uCOcvVmFUYvVDr27aiyun9WgZk0tXe7ThuzoUTAukZJOwS5MrGbmSlNOhx1j80GdpqbOty05XqSl5w4dQvcOA==}
+  /@rollup/rollup-linux-riscv64-gnu@4.10.0:
+    resolution: {integrity: sha512-X1ES+V4bMq2ws5fF4zHornxebNxMXye0ZZjUrzOrf7UMx1d6wMQtfcchZ8SqUnQPPHdOyOLW6fTcUiFgHFadRA==}
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-linux-x64-gnu@4.9.6:
-    resolution: {integrity: sha512-HUNqM32dGzfBKuaDUBqFB7tP6VMN74eLZ33Q9Y1TBqRDn+qDonkAUyKWwF9BR9unV7QUzffLnz9GrnKvMqC/fw==}
+  /@rollup/rollup-linux-x64-gnu@4.10.0:
+    resolution: {integrity: sha512-w/5OpT2EnI/Xvypw4FIhV34jmNqU5PZjZue2l2Y3ty1Ootm3SqhI+AmfhlUYGBTd9JnpneZCDnt3uNOiOBkMyw==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-linux-x64-musl@4.9.6:
-    resolution: {integrity: sha512-ch7M+9Tr5R4FK40FHQk8VnML0Szi2KRujUgHXd/HjuH9ifH72GUmw6lStZBo3c3GB82vHa0ZoUfjfcM7JiiMrQ==}
+  /@rollup/rollup-linux-x64-musl@4.10.0:
+    resolution: {integrity: sha512-q/meftEe3QlwQiGYxD9rWwB21DoKQ9Q8wA40of/of6yGHhZuGfZO0c3WYkN9dNlopHlNT3mf5BPsUSxoPuVQaw==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-win32-arm64-msvc@4.9.6:
-    resolution: {integrity: sha512-VD6qnR99dhmTQ1mJhIzXsRcTBvTjbfbGGwKAHcu+52cVl15AC/kplkhxzW/uT0Xl62Y/meBKDZvoJSJN+vTeGA==}
+  /@rollup/rollup-win32-arm64-msvc@4.10.0:
+    resolution: {integrity: sha512-NrR6667wlUfP0BHaEIKgYM/2va+Oj+RjZSASbBMnszM9k+1AmliRjHc3lJIiOehtSSjqYiO7R6KLNrWOX+YNSQ==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-win32-ia32-msvc@4.9.6:
-    resolution: {integrity: sha512-J9AFDq/xiRI58eR2NIDfyVmTYGyIZmRcvcAoJ48oDld/NTR8wyiPUu2X/v1navJ+N/FGg68LEbX3Ejd6l8B7MQ==}
+  /@rollup/rollup-win32-ia32-msvc@4.10.0:
+    resolution: {integrity: sha512-FV0Tpt84LPYDduIDcXvEC7HKtyXxdvhdAOvOeWMWbQNulxViH2O07QXkT/FffX4FqEI02jEbCJbr+YcuKdyyMg==}
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@rollup/rollup-win32-x64-msvc@4.9.6:
-    resolution: {integrity: sha512-jqzNLhNDvIZOrt69Ce4UjGRpXJBzhUBzawMwnaDAwyHriki3XollsewxWzOzz+4yOFDkuJHtTsZFwMxhYJWmLQ==}
+  /@rollup/rollup-win32-x64-msvc@4.10.0:
+    resolution: {integrity: sha512-OZoJd+o5TaTSQeFFQ6WjFCiltiYVjIdsXxwu/XZ8qRpsvMQr4UsVrE5UyT9RIvsnuF47DqkJKhhVZ2Q9YW9IpQ==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -4711,8 +4711,8 @@ packages:
       - aws-crt
     dev: false
 
-  /aws-cdk-lib@2.126.0(constructs@10.3.0):
-    resolution: {integrity: sha512-HlwBYiqNCfhPUyozjoV4zJIBgH0adE/zTVATmeaM1jcNGs6jwkPMpWsF75JuXOoVtkcfpBFyNKloGd82nTiB0A==}
+  /aws-cdk-lib@2.127.0(constructs@10.3.0):
+    resolution: {integrity: sha512-pEdp2TqgNLYY+kAo68oVzMDEHJevYoRArZJoH+bjM9YTwqRJJiwF1k6tc78e3jca4sCNDZAgX2ytOgqW6lVTWQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -4734,8 +4734,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.126.0:
-    resolution: {integrity: sha512-hEyy8UCEEUnkieH6JbJBN8XAbvuVZNdBmVQ8wHCqo8RSNqmpwM1qvLiyXV/2JvCqJJ0bl9uBiZ98Ytd5i3wW7g==}
+  /aws-cdk@2.127.0:
+    resolution: {integrity: sha512-0yPiN+/VFVc/NpOryO+1S7b4DBgRSs4JdQ64jhV4QbwaoWZo7KISxdN2cK4pmcVH67BSNCJCjjlf10cYhmMvwA==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -6774,26 +6774,26 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup@4.9.6:
-    resolution: {integrity: sha512-05lzkCS2uASX0CiLFybYfVkwNbKZG5NFQ6Go0VWyogFTXXbR039UVsegViTntkk4OglHBdF54ccApXRRuXRbsg==}
+  /rollup@4.10.0:
+    resolution: {integrity: sha512-t2v9G2AKxcQ8yrG+WGxctBes1AomT0M4ND7jTFBCVPXQ/WFTvNSefIrNSmLKhIKBrvN8SG+CZslimJcT3W2u2g==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
     dependencies:
       '@types/estree': 1.0.5
     optionalDependencies:
-      '@rollup/rollup-android-arm-eabi': 4.9.6
-      '@rollup/rollup-android-arm64': 4.9.6
-      '@rollup/rollup-darwin-arm64': 4.9.6
-      '@rollup/rollup-darwin-x64': 4.9.6
-      '@rollup/rollup-linux-arm-gnueabihf': 4.9.6
-      '@rollup/rollup-linux-arm64-gnu': 4.9.6
-      '@rollup/rollup-linux-arm64-musl': 4.9.6
-      '@rollup/rollup-linux-riscv64-gnu': 4.9.6
-      '@rollup/rollup-linux-x64-gnu': 4.9.6
-      '@rollup/rollup-linux-x64-musl': 4.9.6
-      '@rollup/rollup-win32-arm64-msvc': 4.9.6
-      '@rollup/rollup-win32-ia32-msvc': 4.9.6
-      '@rollup/rollup-win32-x64-msvc': 4.9.6
+      '@rollup/rollup-android-arm-eabi': 4.10.0
+      '@rollup/rollup-android-arm64': 4.10.0
+      '@rollup/rollup-darwin-arm64': 4.10.0
+      '@rollup/rollup-darwin-x64': 4.10.0
+      '@rollup/rollup-linux-arm-gnueabihf': 4.10.0
+      '@rollup/rollup-linux-arm64-gnu': 4.10.0
+      '@rollup/rollup-linux-arm64-musl': 4.10.0
+      '@rollup/rollup-linux-riscv64-gnu': 4.10.0
+      '@rollup/rollup-linux-x64-gnu': 4.10.0
+      '@rollup/rollup-linux-x64-musl': 4.10.0
+      '@rollup/rollup-win32-arm64-msvc': 4.10.0
+      '@rollup/rollup-win32-ia32-msvc': 4.10.0
+      '@rollup/rollup-win32-x64-msvc': 4.10.0
       fsevents: 2.3.3
     dev: true
 
@@ -7344,7 +7344,7 @@ packages:
       '@types/node': 20.11.17
       esbuild: 0.19.12
       postcss: 8.4.35
-      rollup: 4.9.6
+      rollup: 4.10.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
