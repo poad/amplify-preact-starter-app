@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@aws-amplify/backend':
-    specifier: ^0.11.0
-    version: 0.11.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
+    specifier: ^0.12.1
+    version: 0.12.1(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
   '@aws-amplify/backend-cli':
     specifier: ^0.11.1
     version: 0.11.1(@aws-sdk/credential-provider-node@3.511.0)(@aws-sdk/types@3.511.0)(aws-cdk-lib@2.127.0)(aws-cdk@2.127.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
@@ -345,8 +345,8 @@ packages:
       - zod
     dev: true
 
-  /@aws-amplify/backend@0.11.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4):
-    resolution: {integrity: sha512-mnSFa8aN3/VTwPmE0LwxzrzG96JTb30DoA6AOtbSDvoGMV5C4eqtHweJtf2hw0veuuAFl72uPrgycvRI7Qjxhw==}
+  /@aws-amplify/backend@0.12.1(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4):
+    resolution: {integrity: sha512-3IRhn/p1oo5I9xiH8CLjJnov8Cx3X5U/deHdYJ6NSEf4AYSLvmyfmexWcbLRi1h/WWMvQzwdjJhFmYC+X/ZBqQ==}
     peerDependencies:
       aws-cdk-lib: ^2.110.1
       constructs: ^10.0.0
@@ -358,7 +358,7 @@ packages:
       '@aws-amplify/backend-output-storage': 0.3.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
       '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-amplify/backend-storage': 0.5.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/client-config': 0.7.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
+      '@aws-amplify/client-config': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-amplify/data-schema': 0.12.14
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
       '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)
@@ -377,26 +377,6 @@ packages:
     dependencies:
       '@inquirer/prompts': 3.3.2
       execa: 8.0.1
-    dev: true
-
-  /@aws-amplify/client-config@0.7.0(aws-cdk-lib@2.127.0)(constructs@10.3.0):
-    resolution: {integrity: sha512-9/+B2LuZUpw4lzxnhJBucu0pJiW5GIxNcvn10K0GSliLuAac04i5ztYivNuKT0nYgObScmgktiSK28bZdwbiqA==}
-    dependencies:
-      '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
-      '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.127.0)(constructs@10.3.0)
-      '@aws-amplify/model-generator': 0.4.0(aws-cdk-lib@2.127.0)(constructs@10.3.0)(zod@3.22.4)
-      '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.127.0)(constructs@10.3.0)
-      '@aws-sdk/client-amplify': 3.511.0
-      '@aws-sdk/client-cloudformation': 3.511.0
-      '@aws-sdk/client-ssm': 3.511.0
-      '@aws-sdk/credential-providers': 3.511.0
-      zod: 3.22.4
-    transitivePeerDependencies:
-      - aws-cdk-lib
-      - aws-crt
-      - constructs
-      - encoding
-      - supports-color
     dev: true
 
   /@aws-amplify/client-config@0.8.0(aws-cdk-lib@2.127.0)(constructs@10.3.0):
@@ -786,7 +766,7 @@ packages:
     resolution: {integrity: sha512-IzSgsrxUcsrejQbPVilIKy16kAT52EwB6zSaI+M3xxIhKh5+aldEyvI+z6erM7TCLB2BJsFrtHjp6/4/sr+3dA==}
     dependencies:
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.511.0
+      '@aws-sdk/types': 3.398.0
       tslib: 1.14.1
 
   /@aws-crypto/crc32c@3.0.0:
@@ -2412,7 +2392,6 @@ packages:
     dependencies:
       '@smithy/types': 2.9.1
       tslib: 2.6.2
-    dev: false
 
   /@aws-sdk/types@3.433.0:
     resolution: {integrity: sha512-0jEE2mSrNDd8VGFjTc1otYrwYPIkzZJEIK90ZxisKvQ/EURGBhNzWn7ejWB9XCMFT6XumYLBR0V9qq5UPisWtA==}
@@ -3511,7 +3490,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.8.0):
@@ -3522,7 +3501,7 @@ packages:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.6.2
+      tslib: 2.4.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -5802,7 +5781,7 @@ packages:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.3.1
+      tslib: 2.4.1
     dev: true
 
   /graphql-transformer-common@4.28.0:
