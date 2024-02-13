@@ -110,7 +110,7 @@ packages:
     dependencies:
       '@aws-amplify/api-rest': 4.0.16(@aws-amplify/core@6.0.16)
       '@aws-amplify/core': 6.0.16
-      '@aws-amplify/data-schema-types': 0.7.2
+      '@aws-amplify/data-schema-types': 0.7.3
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -493,15 +493,15 @@ packages:
       rxjs: 7.8.1
     dev: true
 
-  /@aws-amplify/data-schema-types@0.7.2:
-    resolution: {integrity: sha512-X3AE95rfeeT8NmUwI4PfWlijn3354OpIxIGigzTpPTmRwg/OAKQE7cB9HL1ITfKNh4hrCbPMdl8I7jePSwpNGQ==}
+  /@aws-amplify/data-schema-types@0.7.3:
+    resolution: {integrity: sha512-C9RKp83oEgvHMRaWhToBhMeK3Ij7XfwGgf1wH5O/xSClrrKzOyO9Cccq8JyFRlJZdnzgBMSBeNa3bGwbjsOYlg==}
     dependencies:
       rxjs: 7.8.1
 
   /@aws-amplify/data-schema@0.12.14:
     resolution: {integrity: sha512-uh8TMrsxOsCM0MZ+atmq7t5CbQFtd7hLNucruB2dXXIXonn3moF55i4hl91y3tfpXxRADCDazIaqMSRAwZ/6mw==}
     dependencies:
-      '@aws-amplify/data-schema-types': 0.7.2
+      '@aws-amplify/data-schema-types': 0.7.3
     dev: true
 
   /@aws-amplify/datastore@5.0.16(@aws-amplify/core@6.0.16):
