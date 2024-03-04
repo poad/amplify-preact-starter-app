@@ -24,7 +24,7 @@ devDependencies:
     version: 0.11.1(@aws-sdk/credential-provider-node@3.525.0)(@aws-sdk/types@3.523.0)(aws-cdk-lib@2.131.0)(aws-cdk@2.131.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
   '@preact/preset-vite':
     specifier: ^2.8.1
-    version: 2.8.1(@babel/core@7.24.0)(preact@10.19.6)(vite@5.1.4)
+    version: 2.8.1(@babel/core@7.24.0)(preact@10.19.6)(vite@5.1.5)
   '@types/node':
     specifier: ^20.11.24
     version: 20.11.24
@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^5.3.3
     version: 5.3.3
   vite:
-    specifier: ^5.1.4
-    version: 5.1.4(@types/node@20.11.24)
+    specifier: ^5.1.5
+    version: 5.1.5(@types/node@20.11.24)
 
 packages:
 
@@ -387,7 +387,7 @@ packages:
       '@aws-amplify/model-generator': 0.4.0(aws-cdk-lib@2.131.0)(constructs@10.3.0)(zod@3.22.4)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.131.0)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.525.0
-      '@aws-sdk/client-cloudformation': 3.525.0
+      '@aws-sdk/client-cloudformation': 3.526.0
       '@aws-sdk/client-ssm': 3.525.0
       '@aws-sdk/credential-providers': 3.525.0
       zod: 3.22.4
@@ -524,7 +524,7 @@ packages:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.131.0)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.525.0
-      '@aws-sdk/client-cloudformation': 3.525.0
+      '@aws-sdk/client-cloudformation': 3.526.0
       '@aws-sdk/client-s3': 3.525.0
       '@aws-sdk/types': 3.523.0
       zod: 3.22.4
@@ -719,7 +719,7 @@ packages:
       '@aws-amplify/client-config': 0.8.0(aws-cdk-lib@2.131.0)(constructs@10.3.0)
       '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.131.0)(constructs@10.3.0)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.131.0)(constructs@10.3.0)
-      '@aws-sdk/client-cloudformation': 3.525.0
+      '@aws-sdk/client-cloudformation': 3.526.0
       '@aws-sdk/credential-providers': 3.525.0
       '@aws-sdk/types': 3.523.0
       '@parcel/watcher': 2.4.1
@@ -801,7 +801,7 @@ packages:
       '@aws-crypto/sha256-js': 3.0.0
       '@aws-crypto/supports-web-crypto': 3.0.0
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.523.0
       '@aws-sdk/util-locate-window': 3.495.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
@@ -810,7 +810,7 @@ packages:
     resolution: {integrity: sha512-PnNN7os0+yd1XvXAy23CFOmTbMaDxgxXtTKHybrJ39Y8kGzBATgBFibWJKH6BhytLI/Zyszs87xCOBNyBig6vQ==}
     dependencies:
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.523.0
       tslib: 1.14.1
 
   /@aws-crypto/sha256-js@5.2.0:
@@ -830,7 +830,7 @@ packages:
   /@aws-crypto/util@3.0.0:
     resolution: {integrity: sha512-2OJlpeJpCR48CC8r+uKVChzs9Iungj9wkZrl8Z041DWEWvyIHILYKCPNzJghKsivj+S3mLo6BVc7mBNzdxA46w==}
     dependencies:
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.523.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
 
@@ -988,8 +988,8 @@ packages:
       - aws-crt
     dev: true
 
-  /@aws-sdk/client-cloudformation@3.525.0:
-    resolution: {integrity: sha512-z+IbnnVWOoS0C5s3JfheS6zxhRfJAk57zxKMD0ofTFW/eIDxhyvd12gnTWUNZch6Lz0TeeqK/hsxVvF2p0hf4A==}
+  /@aws-sdk/client-cloudformation@3.526.0:
+    resolution: {integrity: sha512-Zz6swHfQdauuCJY3j+5SUPMFWTxgpAWN3x5dl/8jdn0Q1GdiWzZ0/5+jZr83mE7ola3UUH3LP/cw1UIljJO0ZA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -2393,6 +2393,7 @@ packages:
     dependencies:
       '@smithy/types': 2.10.1
       tslib: 2.6.2
+    dev: false
 
   /@aws-sdk/types@3.433.0:
     resolution: {integrity: sha512-0jEE2mSrNDd8VGFjTc1otYrwYPIkzZJEIK90ZxisKvQ/EURGBhNzWn7ejWB9XCMFT6XumYLBR0V9qq5UPisWtA==}
@@ -3910,7 +3911,7 @@ packages:
     dev: true
     optional: true
 
-  /@preact/preset-vite@2.8.1(@babel/core@7.24.0)(preact@10.19.6)(vite@5.1.4):
+  /@preact/preset-vite@2.8.1(@babel/core@7.24.0)(preact@10.19.6)(vite@5.1.5):
     resolution: {integrity: sha512-a9KV4opdj17X2gOFuGup0aE+sXYABX/tJi/QDptOrleX4FlnoZgDWvz45tHOdVfrZX+3uvVsIYPHxRsTerkDNA==}
     peerDependencies:
       '@babel/core': 7.x
@@ -3919,7 +3920,7 @@ packages:
       '@babel/core': 7.24.0
       '@babel/plugin-transform-react-jsx': 7.23.4(@babel/core@7.24.0)
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.24.0)
-      '@prefresh/vite': 2.4.5(preact@10.19.6)(vite@5.1.4)
+      '@prefresh/vite': 2.4.5(preact@10.19.6)(vite@5.1.5)
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.24.0)
       debug: 4.3.4
@@ -3927,7 +3928,7 @@ packages:
       magic-string: 0.30.5
       node-html-parser: 6.1.12
       resolve: 1.22.8
-      vite: 5.1.4(@types/node@20.11.24)
+      vite: 5.1.5(@types/node@20.11.24)
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -3949,7 +3950,7 @@ packages:
     resolution: {integrity: sha512-KtC/fZw+oqtwOLUFM9UtiitB0JsVX0zLKNyRTA332sqREqSALIIQQxdUCS1P3xR/jT1e2e8/5rwH6gdcMLEmsQ==}
     dev: true
 
-  /@prefresh/vite@2.4.5(preact@10.19.6)(vite@5.1.4):
+  /@prefresh/vite@2.4.5(preact@10.19.6)(vite@5.1.5):
     resolution: {integrity: sha512-iForDVJ2M8gQYnm5pHumvTEJjGGc7YNYC0GVKnHFL+GvFfKHfH9Rpq67nUAzNbjuLEpqEOUuQVQajMazWu2ZNQ==}
     peerDependencies:
       preact: ^10.4.0
@@ -3961,7 +3962,7 @@ packages:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.19.6
-      vite: 5.1.4(@types/node@20.11.24)
+      vite: 5.1.5(@types/node@20.11.24)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4861,7 +4862,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001593
-      electron-to-chromium: 1.4.690
+      electron-to-chromium: 1.4.691
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: true
@@ -5293,8 +5294,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.690:
-    resolution: {integrity: sha512-+2OAGjUx68xElQhydpcbqH50hE8Vs2K6TkAeLhICYfndb67CVH0UsZaijmRUE3rHlIxU1u0jxwhgVe6fK3YANA==}
+  /electron-to-chromium@1.4.691:
+    resolution: {integrity: sha512-vJ+/LmKja/St8Ofq4JGMFVZuwG7ECU6akjNSn2/g6nv8xbIBOWGlEs+WA8/3XaWkU0Nlyu0iFGgOxC4mpgFjgA==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -6062,7 +6063,7 @@ packages:
   /is-lower-case@2.0.2:
     resolution: {integrity: sha512-bVcMJy4X5Og6VZfdOZstSexlEy20Sr0k/p/b2IlQJlfdKAQuMpiv5w2Ccxb8sKdRUNAG1PnHVHjFSdRDVS6NlQ==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /is-negative-zero@2.0.3:
@@ -6145,7 +6146,7 @@ packages:
   /is-upper-case@2.0.2:
     resolution: {integrity: sha512-44pxmxAvnnAOwBg4tHPnkfvgjPwbc5QIsSstNU+YcJ1ovxVzCWpSGosPJOZh/a1tdl81fbgnLc9LLv+x2ywbPQ==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /is-weakref@1.0.2:
@@ -6972,7 +6973,7 @@ packages:
   /sponge-case@1.0.1:
     resolution: {integrity: sha512-dblb9Et4DAtiZ5YSUZHLl4XhH4uK80GhAZrVXdN4O2P4gQ40Wa5UIOPUHlA/nFd2PLblBZWUioLMMAVrgpoYcA==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /streamsearch@1.1.0:
@@ -7079,13 +7080,13 @@ packages:
   /swap-case@2.0.2:
     resolution: {integrity: sha512-kc6S2YS/2yXbtkSMunBtKdah4VFETZ8Oh6ONSmSd9bRxhqTrtARUCBUiWXH3xVPpvR7tz2CSnkuXVE42EcGnMw==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /title-case@3.0.3:
     resolution: {integrity: sha512-e1zGYRvbffpcHIrnuqT0Dh+gEJtDaxDSoG4JAIpq4oDFyooziLBIiYQv0GBT4FUAnUop5uZ1hiIAj7oAF6sOCA==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /titleize@3.0.0:
@@ -7320,8 +7321,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /vite@5.1.4(@types/node@20.11.24):
-    resolution: {integrity: sha512-n+MPqzq+d9nMVTKyewqw6kSt+R3CkvF9QAKY8obiQn8g1fwTscKxyfaYnC632HtBXAQGc1Yjomphwn1dtwGAHg==}
+  /vite@5.1.5(@types/node@20.11.24):
+    resolution: {integrity: sha512-BdN1xh0Of/oQafhU+FvopafUp6WaYenLU/NFoL5WyJL++GxkNfieKzBhM24H3HVsPQrlAqB7iJYTHabzaRed5Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
