@@ -12,8 +12,8 @@ dependencies:
     specifier: ^6.0.20
     version: 6.0.20
   preact:
-    specifier: ^10.19.6
-    version: 10.19.6
+    specifier: ^10.19.7
+    version: 10.19.7
 
 devDependencies:
   '@aws-amplify/backend':
@@ -24,16 +24,16 @@ devDependencies:
     version: 0.11.1(@aws-sdk/credential-provider-node@3.535.0)(@aws-sdk/types@3.535.0)(aws-cdk-lib@2.133.0)(aws-cdk@2.133.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2)
   '@preact/preset-vite':
     specifier: ^2.8.2
-    version: 2.8.2(@babel/core@7.24.0)(preact@10.19.6)(vite@5.1.6)
+    version: 2.8.2(@babel/core@7.24.0)(preact@10.19.7)(vite@5.1.6)
   '@types/node':
-    specifier: ^20.11.28
-    version: 20.11.28
+    specifier: ^20.11.29
+    version: 20.11.29
   typescript:
     specifier: ^5.4.2
     version: 5.4.2
   vite:
     specifier: ^5.1.6
-    version: 5.1.6(@types/node@20.11.28)
+    version: 5.1.6(@types/node@20.11.29)
 
 packages:
 
@@ -387,7 +387,7 @@ packages:
       '@aws-amplify/model-generator': 0.4.0(aws-cdk-lib@2.133.0)(constructs@10.3.0)(zod@3.22.4)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.133.0)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.535.0
-      '@aws-sdk/client-cloudformation': 3.535.0
+      '@aws-sdk/client-cloudformation': 3.536.0
       '@aws-sdk/client-ssm': 3.535.0
       '@aws-sdk/credential-providers': 3.535.0
       zod: 3.22.4
@@ -524,8 +524,8 @@ packages:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.133.0)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.535.0
-      '@aws-sdk/client-cloudformation': 3.535.0
-      '@aws-sdk/client-s3': 3.535.0
+      '@aws-sdk/client-cloudformation': 3.536.0
+      '@aws-sdk/client-s3': 3.536.0
       '@aws-sdk/types': 3.535.0
       zod: 3.22.4
     transitivePeerDependencies:
@@ -543,7 +543,7 @@ packages:
       '@aws-amplify/graphql-docs-generator': 4.2.1
       '@aws-sdk/client-amplifyuibuilder': 3.535.0
       '@aws-sdk/client-appsync': 3.535.0
-      '@aws-sdk/client-s3': 3.535.0
+      '@aws-sdk/client-s3': 3.536.0
       '@graphql-codegen/core': 4.0.2(graphql@15.8.0)
       '@graphql-codegen/typescript': 2.8.8(graphql@15.8.0)
       graphql: 15.8.0
@@ -660,7 +660,7 @@ packages:
       '@aws-amplify/graphql-generator': 0.2.4
       '@aws-amplify/graphql-types-generator': 3.4.6
       '@aws-sdk/client-appsync': 3.535.0
-      '@aws-sdk/client-s3': 3.535.0
+      '@aws-sdk/client-s3': 3.536.0
       '@aws-sdk/credential-providers': 3.535.0
       '@aws-sdk/types': 3.535.0
       graphql: 15.8.0
@@ -719,7 +719,7 @@ packages:
       '@aws-amplify/client-config': 0.8.0(aws-cdk-lib@2.133.0)(constructs@10.3.0)
       '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.133.0)(constructs@10.3.0)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.133.0)(constructs@10.3.0)
-      '@aws-sdk/client-cloudformation': 3.535.0
+      '@aws-sdk/client-cloudformation': 3.536.0
       '@aws-sdk/credential-providers': 3.535.0
       '@aws-sdk/types': 3.535.0
       '@parcel/watcher': 2.4.1
@@ -837,7 +837,7 @@ packages:
   /@aws-crypto/util@5.2.0:
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
     dependencies:
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.535.0
       '@smithy/util-utf8': 2.3.0
       tslib: 2.6.2
     dev: false
@@ -988,8 +988,8 @@ packages:
       - aws-crt
     dev: true
 
-  /@aws-sdk/client-cloudformation@3.535.0:
-    resolution: {integrity: sha512-ybezCa8tS5HWV+0qDnMKHYUyfZCwysf8I3QTpD+O5TnlXVkeis+L8xABnr9eWcEkog2Mg+Yao4cWDAKp1LvU1Q==}
+  /@aws-sdk/client-cloudformation@3.536.0:
+    resolution: {integrity: sha512-Pbk2DRL3l6AcNPCpqejh5XrDdqkfVl+934e4BKbd5oiRWmiXvQ9gwWoB4fGhtBmhgCL050KIa5oepnCknBJrhg==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -1124,7 +1124,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.0
       '@smithy/util-defaults-mode-node': 2.3.0
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.3.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -1171,7 +1171,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.0
       '@smithy/util-defaults-mode-node': 2.3.0
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.3.0
       '@smithy/util-waiter': 2.2.0
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -1216,14 +1216,14 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.0
       '@smithy/util-defaults-mode-node': 2.3.0
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.3.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
     dev: false
 
-  /@aws-sdk/client-s3@3.535.0:
-    resolution: {integrity: sha512-qcFCP9a695ZvAbm+hRMyfE2PjqnSkq0Bl57X7z8gHUg4TIjKJHTP7mtND21A4YaWigegQL6OA5kMXMZbCcugLA==}
+  /@aws-sdk/client-s3@3.536.0:
+    resolution: {integrity: sha512-UM5txJxq8qKzLDVuW9c904bpb7+u1jOeyJITLz79WpyHSOP6ERHoTx/ltEuGJ4zQVazfkgthqR0lIn09sXEEuw==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha1-browser': 3.0.0
@@ -1422,7 +1422,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.0
       '@smithy/util-defaults-mode-node': 2.3.0
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.3.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -1556,7 +1556,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.0
       '@smithy/util-defaults-mode-node': 2.3.0
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.3.0
       fast-xml-parser: 4.2.5
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -2311,7 +2311,7 @@ packages:
       '@smithy/util-defaults-mode-browser': 2.2.0
       '@smithy/util-defaults-mode-node': 2.3.0
       '@smithy/util-retry': 2.2.0
-      '@smithy/util-utf8': 2.0.0
+      '@smithy/util-utf8': 2.3.0
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-crt
@@ -3470,7 +3470,7 @@ packages:
     dependencies:
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /@graphql-tools/merge@9.0.3(graphql@15.8.0):
@@ -3490,7 +3490,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.8.0):
@@ -3501,7 +3501,7 @@ packages:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3528,7 +3528,7 @@ packages:
       '@graphql-tools/merge': 8.4.2(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
       value-or-promise: 1.0.12
     dev: true
 
@@ -3574,7 +3574,7 @@ packages:
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /@graphql-typed-document-node/core@3.2.0(graphql@15.8.0):
@@ -3611,7 +3611,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.2.1
       '@types/mute-stream': 0.0.4
-      '@types/node': 20.11.28
+      '@types/node': 20.11.29
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -3909,7 +3909,7 @@ packages:
     dev: true
     optional: true
 
-  /@preact/preset-vite@2.8.2(@babel/core@7.24.0)(preact@10.19.6)(vite@5.1.6):
+  /@preact/preset-vite@2.8.2(@babel/core@7.24.0)(preact@10.19.7)(vite@5.1.6):
     resolution: {integrity: sha512-m3tl+M8IO8jgiHnk+7LSTFl8axdPXloewi7iGVLdmCwf34XOzEUur0bZVewW4DUbUipFjTS2CXu27+5f/oexBA==}
     peerDependencies:
       '@babel/core': 7.x
@@ -3918,7 +3918,7 @@ packages:
       '@babel/core': 7.24.0
       '@babel/plugin-transform-react-jsx': 7.23.4(@babel/core@7.24.0)
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.24.0)
-      '@prefresh/vite': 2.4.5(preact@10.19.6)(vite@5.1.6)
+      '@prefresh/vite': 2.4.5(preact@10.19.7)(vite@5.1.6)
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.24.0)
       debug: 4.3.4
@@ -3928,7 +3928,7 @@ packages:
       resolve: 1.22.8
       source-map: 0.7.4
       stack-trace: 1.0.0-pre2
-      vite: 5.1.6(@types/node@20.11.28)
+      vite: 5.1.6(@types/node@20.11.29)
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -3938,19 +3938,19 @@ packages:
     resolution: {integrity: sha512-uG3jGEAysxWoyG3XkYfjYHgaySFrSsaEb4GagLzYaxlydbuREtaX+FTxuIidp241RaLl85XoHg9Ej6E4+V1pcg==}
     dev: true
 
-  /@prefresh/core@1.5.2(preact@10.19.6):
+  /@prefresh/core@1.5.2(preact@10.19.7):
     resolution: {integrity: sha512-A/08vkaM1FogrCII5PZKCrygxSsc11obExBScm3JF1CryK2uDS3ZXeni7FeKCx1nYdUkj4UcJxzPzc1WliMzZA==}
     peerDependencies:
       preact: ^10.0.0
     dependencies:
-      preact: 10.19.6
+      preact: 10.19.7
     dev: true
 
   /@prefresh/utils@1.2.0:
     resolution: {integrity: sha512-KtC/fZw+oqtwOLUFM9UtiitB0JsVX0zLKNyRTA332sqREqSALIIQQxdUCS1P3xR/jT1e2e8/5rwH6gdcMLEmsQ==}
     dev: true
 
-  /@prefresh/vite@2.4.5(preact@10.19.6)(vite@5.1.6):
+  /@prefresh/vite@2.4.5(preact@10.19.7)(vite@5.1.6):
     resolution: {integrity: sha512-iForDVJ2M8gQYnm5pHumvTEJjGGc7YNYC0GVKnHFL+GvFfKHfH9Rpq67nUAzNbjuLEpqEOUuQVQajMazWu2ZNQ==}
     peerDependencies:
       preact: ^10.4.0
@@ -3958,11 +3958,11 @@ packages:
     dependencies:
       '@babel/core': 7.24.0
       '@prefresh/babel-plugin': 0.5.1
-      '@prefresh/core': 1.5.2(preact@10.19.6)
+      '@prefresh/core': 1.5.2(preact@10.19.7)
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
-      preact: 10.19.6
-      vite: 5.1.6(@types/node@20.11.28)
+      preact: 10.19.7
+      vite: 5.1.6(@types/node@20.11.29)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4534,11 +4534,11 @@ packages:
   /@types/mute-stream@0.0.4:
     resolution: {integrity: sha512-CPM9nzrCPPJHQNA9keH9CVkVI+WR5kMa+7XEs5jcGQ0VoAGnLv242w8lIVgwAEfmE4oufJRaTc9PNLQl0ioAow==}
     dependencies:
-      '@types/node': 20.11.28
+      '@types/node': 20.11.29
     dev: true
 
-  /@types/node@20.11.28:
-    resolution: {integrity: sha512-M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==}
+  /@types/node@20.11.29:
+    resolution: {integrity: sha512-P99thMkD/1YkCvAtOd6/zGedKNA0p2fj4ZpjCzcNiSCBWgm3cNRTBfa/qjFnsKkkojxu4vVLtWpesnZ9+ap+gA==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -4863,7 +4863,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001599
-      electron-to-chromium: 1.4.708
+      electron-to-chromium: 1.4.710
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: true
@@ -5322,8 +5322,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.708:
-    resolution: {integrity: sha512-iWgEEvREL4GTXXHKohhh33+6Y8XkPI5eHihDmm8zUk5Zo7HICEW+wI/j5kJ2tbuNUCXJ/sNXa03ajW635DiJXA==}
+  /electron-to-chromium@1.4.710:
+    resolution: {integrity: sha512-w+9yAVHoHhysCa+gln7AzbO9CdjFcL/wN/5dd+XW/Msl2d/4+WisEaCF1nty0xbAKaxdaJfgLB2296U7zZB7BA==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -5882,7 +5882,7 @@ packages:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /graphql-transformer-common@4.28.1:
@@ -6741,8 +6741,8 @@ packages:
       source-map-js: 1.1.0
     dev: true
 
-  /preact@10.19.6:
-    resolution: {integrity: sha512-gympg+T2Z1fG1unB8NH29yHJwnEaCH37Z32diPDku316OTnRPeMbiRV9kTrfZpocXjdfnWuFUl/Mj4BHaf6gnw==}
+  /preact@10.19.7:
+    resolution: {integrity: sha512-IJOW6cQN1fwfC17HfNOqUtAGyB8wAYshuC+jG1JiL/1+sC4yVyuA3IcF0N9vdodMJjW/lbuEF5qFsJqGNcbHbw==}
 
   /prettier@1.19.1:
     resolution: {integrity: sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==}
@@ -7426,7 +7426,7 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /vite@5.1.6(@types/node@20.11.28):
+  /vite@5.1.6(@types/node@20.11.29):
     resolution: {integrity: sha512-yYIAZs9nVfRJ/AiOLCA91zzhjsHUgMjB+EigzFb6W2XTLO8JixBCKCjvhKZaye+NKYHCrkv3Oh50dH9EdLU2RA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -7454,7 +7454,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.28
+      '@types/node': 20.11.29
       esbuild: 0.19.12
       postcss: 8.4.36
       rollup: 4.13.0
