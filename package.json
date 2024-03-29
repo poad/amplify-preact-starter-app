@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-amplify/core": "^6.0.23",
-    "aws-amplify": "^6.0.23",
+    "@aws-amplify/core": "^6.0.24",
+    "aws-amplify": "^6.0.24",
     "preact": "^10.20.1"
   },
   "devDependencies": {
@@ -19,6 +19,6 @@
     "@preact/preset-vite": "^2.8.2",
     "@types/node": "^20.11.30",
     "typescript": "^5.4.3",
-    "vite": "^5.2.6"
+    "vite": "^5.2.7"
   }
 }
