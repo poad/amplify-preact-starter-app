@@ -9,15 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-amplify/core": "^6.0.26",
-    "aws-amplify": "^6.0.26",
+    "@aws-amplify/core": "^6.0.27",
+    "aws-amplify": "^6.0.27",
     "preact": "^10.20.1"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^0.12.1",
     "@aws-amplify/backend-cli": "^0.11.1",
     "@preact/preset-vite": "^2.8.2",
-    "@types/node": "^20.12.2",
+    "@types/node": "^20.12.3",
     "typescript": "^5.4.3",
     "vite": "^5.2.7"
   }
