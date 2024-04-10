@@ -10,14 +10,14 @@
   },
   "dependencies": {
     "@aws-amplify/core": "^6.0.27",
-    "aws-amplify": "^6.0.27",
-    "preact": "^10.20.1"
+    "aws-amplify": "^6.0.28",
+    "preact": "^10.20.2"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^0.12.1",
     "@aws-amplify/backend-cli": "^0.11.1",
     "@preact/preset-vite": "^2.8.2",
-    "@types/node": "^20.12.6",
+    "@types/node": "^20.12.7",
     "typescript": "^5.4.4",
     "vite": "^5.2.8"
   }
