@@ -414,7 +414,7 @@ packages:
       '@aws-amplify/model-generator': 0.4.0(aws-cdk-lib@2.137.0)(constructs@10.3.0)(zod@3.22.4)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.137.0)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.554.0
-      '@aws-sdk/client-cloudformation': 3.554.0
+      '@aws-sdk/client-cloudformation': 3.555.0
       '@aws-sdk/client-ssm': 3.554.0
       '@aws-sdk/credential-providers': 3.554.0
       zod: 3.22.4
@@ -515,6 +515,16 @@ packages:
       - pluralize
       - universalify
 
+  /@aws-amplify/data-schema-types@0.0.0-20240412222732(aws-cdk-lib@2.137.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-efrPJaih1VAtKevvA6mzzBTnfaOBcnVR65am0H+aMrdmtix95kj3FZFr2IpcPVF0XtvTkCrdbgvI7urLjVhPQQ==}
+    dependencies:
+      '@aws-amplify/plugin-types': 0.9.0-beta.2(aws-cdk-lib@2.137.0)(constructs@10.3.0)
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - aws-cdk-lib
+      - constructs
+    dev: true
+
   /@aws-amplify/data-schema-types@0.6.12:
     resolution: {integrity: sha512-0ZpWnN+UxrUHHyj9rtoz/wljo8PvvZYt1nxu7lR1HFFa2dQqYVHD4a8umMIi5pQBo4DfCOkITri18hmslzhBOw==}
     dependencies:
@@ -529,11 +539,12 @@ packages:
     transitivePeerDependencies:
       - aws-cdk-lib
       - constructs
+    dev: false
 
   /@aws-amplify/data-schema@0.12.14(aws-cdk-lib@2.137.0)(constructs@10.3.0):
     resolution: {integrity: sha512-uh8TMrsxOsCM0MZ+atmq7t5CbQFtd7hLNucruB2dXXIXonn3moF55i4hl91y3tfpXxRADCDazIaqMSRAwZ/6mw==}
     dependencies:
-      '@aws-amplify/data-schema-types': 0.7.16(aws-cdk-lib@2.137.0)(constructs@10.3.0)
+      '@aws-amplify/data-schema-types': 0.0.0-20240412222732(aws-cdk-lib@2.137.0)(constructs@10.3.0)
     transitivePeerDependencies:
       - aws-cdk-lib
       - constructs
@@ -562,7 +573,7 @@ packages:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.137.0)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.554.0
-      '@aws-sdk/client-cloudformation': 3.554.0
+      '@aws-sdk/client-cloudformation': 3.555.0
       '@aws-sdk/client-s3': 3.554.0
       '@aws-sdk/types': 3.535.0
       zod: 3.22.4
@@ -789,7 +800,7 @@ packages:
       '@aws-amplify/client-config': 0.8.0(aws-cdk-lib@2.137.0)(constructs@10.3.0)
       '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.137.0)(constructs@10.3.0)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.137.0)(constructs@10.3.0)
-      '@aws-sdk/client-cloudformation': 3.554.0
+      '@aws-sdk/client-cloudformation': 3.555.0
       '@aws-sdk/credential-providers': 3.554.0
       '@aws-sdk/types': 3.535.0
       '@parcel/watcher': 2.4.1
@@ -1055,8 +1066,8 @@ packages:
       - aws-crt
     dev: true
 
-  /@aws-sdk/client-cloudformation@3.554.0:
-    resolution: {integrity: sha512-dj9Th3GA6UZvygnTTukQ0QSb0kRlIkKNLQGdG1AV2nFlrvE59+ZrrVGs3HQNP6crwemPwskX/XGwjvqGVzbChw==}
+  /@aws-sdk/client-cloudformation@3.555.0:
+    resolution: {integrity: sha512-gm+qteiSwG/Y25lrIdjiP/GQkYSCdxhTAcHHUGmC85pDTLRsZbTXUm79rhvT3SfoLX3/Hh4JHoVSiFL+wxKeww==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -3865,7 +3876,7 @@ packages:
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.2.1
+      '@inquirer/type': 1.3.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       figures: 3.2.0
@@ -3876,7 +3887,7 @@ packages:
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.2.1
+      '@inquirer/type': 1.3.0
       chalk: 4.1.2
     dev: true
 
@@ -3884,7 +3895,7 @@ packages:
     resolution: {integrity: sha512-fKi63Khkisgda3ohnskNf5uZJj+zXOaBvOllHsOkdsXRA/ubQLJQrZchFFi57NKbZzkTunXiBMdvWOv71alonw==}
     engines: {node: '>=14.18.0'}
     dependencies:
-      '@inquirer/type': 1.2.1
+      '@inquirer/type': 1.3.0
       '@types/mute-stream': 0.0.4
       '@types/node': 20.12.7
       '@types/wrap-ansi': 3.0.0
@@ -3905,7 +3916,7 @@ packages:
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.2.1
+      '@inquirer/type': 1.3.0
       chalk: 4.1.2
       external-editor: 3.1.0
     dev: true
@@ -3915,7 +3926,7 @@ packages:
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.2.1
+      '@inquirer/type': 1.3.0
       chalk: 4.1.2
       figures: 3.2.0
     dev: true
@@ -3925,7 +3936,7 @@ packages:
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.2.1
+      '@inquirer/type': 1.3.0
       chalk: 4.1.2
     dev: true
 
@@ -3934,7 +3945,7 @@ packages:
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.2.1
+      '@inquirer/type': 1.3.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
     dev: true
@@ -3959,7 +3970,7 @@ packages:
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.2.1
+      '@inquirer/type': 1.3.0
       chalk: 4.1.2
     dev: true
 
@@ -3968,14 +3979,14 @@ packages:
     engines: {node: '>=14.18.0'}
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.2.1
+      '@inquirer/type': 1.3.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       figures: 3.2.0
     dev: true
 
-  /@inquirer/type@1.2.1:
-    resolution: {integrity: sha512-xwMfkPAxeo8Ji/IxfUSqzRi0/+F2GIqJmpc5/thelgMGsjNZcjDDRBO9TLXT1s/hdx/mK5QbVIvgoLIFgXhTMQ==}
+  /@inquirer/type@1.3.0:
+    resolution: {integrity: sha512-RW4Zf6RCTnInRaOZuRHTqAUl+v6VJuQGglir7nW2BkT3OXOphMhkIFhvFRjorBx2l0VwtC/M4No8vYR65TdN9Q==}
     engines: {node: '>=18'}
     dev: true
 
@@ -5154,7 +5165,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001609
-      electron-to-chromium: 1.4.735
+      electron-to-chromium: 1.4.736
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: true
@@ -5612,8 +5623,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.735:
-    resolution: {integrity: sha512-pkYpvwg8VyOTQAeBqZ7jsmpCjko1Qc6We1ZtZCjRyYbT5v4AIUKDy5cQTRotQlSSZmMr8jqpEt6JtOj5k7lR7A==}
+  /electron-to-chromium@1.4.736:
+    resolution: {integrity: sha512-Rer6wc3ynLelKNM4lOCg7/zPQj8tPOCB2hzD32PX9wd3hgRRi9MxEbmkFCokzcEhRVMiOVLjnL9ig9cefJ+6+Q==}
     dev: true
 
   /emoji-regex@8.0.0:
