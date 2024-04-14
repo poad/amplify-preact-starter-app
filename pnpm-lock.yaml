@@ -110,7 +110,7 @@ packages:
     dependencies:
       '@aws-amplify/api-rest': 4.0.27(@aws-amplify/core@6.0.27)
       '@aws-amplify/core': 6.0.27
-      '@aws-amplify/data-schema-types': 0.7.16(aws-cdk-lib@2.137.0)(constructs@10.3.0)
+      '@aws-amplify/data-schema-types': 0.7.17(aws-cdk-lib@2.137.0)(constructs@10.3.0)
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -515,36 +515,25 @@ packages:
       - pluralize
       - universalify
 
-  /@aws-amplify/data-schema-types@0.0.0-20240412222732(aws-cdk-lib@2.137.0)(constructs@10.3.0):
-    resolution: {integrity: sha512-efrPJaih1VAtKevvA6mzzBTnfaOBcnVR65am0H+aMrdmtix95kj3FZFr2IpcPVF0XtvTkCrdbgvI7urLjVhPQQ==}
-    dependencies:
-      '@aws-amplify/plugin-types': 0.9.0-beta.2(aws-cdk-lib@2.137.0)(constructs@10.3.0)
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - aws-cdk-lib
-      - constructs
-    dev: true
-
   /@aws-amplify/data-schema-types@0.6.12:
     resolution: {integrity: sha512-0ZpWnN+UxrUHHyj9rtoz/wljo8PvvZYt1nxu7lR1HFFa2dQqYVHD4a8umMIi5pQBo4DfCOkITri18hmslzhBOw==}
     dependencies:
       rxjs: 7.8.1
     dev: true
 
-  /@aws-amplify/data-schema-types@0.7.16(aws-cdk-lib@2.137.0)(constructs@10.3.0):
-    resolution: {integrity: sha512-mfzGZjKtCASf2pIqlgpObnC/H6Z2V+DtCp1tE4EvknmPZ5HBz45zJrvuo+AE6SChKtMv/XbyRVjd3kWGggOctw==}
+  /@aws-amplify/data-schema-types@0.7.17(aws-cdk-lib@2.137.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-/J8ubs23aKTx1OYJ5Pqn8bAWHT6CsmdZNxPzaZiT+TFLoy4B0eSzBKFKUlYQ84Qeujk1NhVeZ20J8bqdMN5MUw==}
     dependencies:
       '@aws-amplify/plugin-types': 0.9.0-beta.2(aws-cdk-lib@2.137.0)(constructs@10.3.0)
       rxjs: 7.8.1
     transitivePeerDependencies:
       - aws-cdk-lib
       - constructs
-    dev: false
 
   /@aws-amplify/data-schema@0.12.14(aws-cdk-lib@2.137.0)(constructs@10.3.0):
     resolution: {integrity: sha512-uh8TMrsxOsCM0MZ+atmq7t5CbQFtd7hLNucruB2dXXIXonn3moF55i4hl91y3tfpXxRADCDazIaqMSRAwZ/6mw==}
     dependencies:
-      '@aws-amplify/data-schema-types': 0.0.0-20240412222732(aws-cdk-lib@2.137.0)(constructs@10.3.0)
+      '@aws-amplify/data-schema-types': 0.7.17(aws-cdk-lib@2.137.0)(constructs@10.3.0)
     transitivePeerDependencies:
       - aws-cdk-lib
       - constructs
@@ -6442,7 +6431,7 @@ packages:
   /is-lower-case@2.0.2:
     resolution: {integrity: sha512-bVcMJy4X5Og6VZfdOZstSexlEy20Sr0k/p/b2IlQJlfdKAQuMpiv5w2Ccxb8sKdRUNAG1PnHVHjFSdRDVS6NlQ==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /is-negative-zero@2.0.3:
@@ -6525,7 +6514,7 @@ packages:
   /is-upper-case@2.0.2:
     resolution: {integrity: sha512-44pxmxAvnnAOwBg4tHPnkfvgjPwbc5QIsSstNU+YcJ1ovxVzCWpSGosPJOZh/a1tdl81fbgnLc9LLv+x2ywbPQ==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /is-weakref@1.0.2:
@@ -7359,7 +7348,7 @@ packages:
   /sponge-case@1.0.1:
     resolution: {integrity: sha512-dblb9Et4DAtiZ5YSUZHLl4XhH4uK80GhAZrVXdN4O2P4gQ40Wa5UIOPUHlA/nFd2PLblBZWUioLMMAVrgpoYcA==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /stack-trace@1.0.0-pre2:
@@ -7473,13 +7462,13 @@ packages:
   /swap-case@2.0.2:
     resolution: {integrity: sha512-kc6S2YS/2yXbtkSMunBtKdah4VFETZ8Oh6ONSmSd9bRxhqTrtARUCBUiWXH3xVPpvR7tz2CSnkuXVE42EcGnMw==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /title-case@3.0.3:
     resolution: {integrity: sha512-e1zGYRvbffpcHIrnuqT0Dh+gEJtDaxDSoG4JAIpq4oDFyooziLBIiYQv0GBT4FUAnUop5uZ1hiIAj7oAF6sOCA==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /titleize@3.0.0:
