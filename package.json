@@ -11,7 +11,7 @@
   "dependencies": {
     "@aws-amplify/core": "^6.1.0",
     "aws-amplify": "^6.2.0",
-    "preact": "^10.20.2"
+    "preact": "^10.21.0"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^0.12.1",
