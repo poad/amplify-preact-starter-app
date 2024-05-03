@@ -6317,14 +6317,14 @@ snapshots:
   '@graphql-tools/optimize@1.4.0(graphql@15.8.0)':
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
 
   '@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.8.0)':
     dependencies:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -7827,7 +7827,7 @@ snapshots:
   graphql-tag@2.12.6(graphql@15.8.0):
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.3.1
 
   graphql-transformer-common@4.30.1:
     dependencies:
@@ -7976,7 +7976,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.3.1
 
   is-negative-zero@2.0.3: {}
 
@@ -8021,7 +8021,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.3.1
 
   is-weakref@1.0.2:
     dependencies:
@@ -8085,7 +8085,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.3.1
 
   lru-cache@10.2.2: {}
 
@@ -8490,7 +8490,7 @@ snapshots:
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.3.1
 
   stack-trace@1.0.0-pre2: {}
 
@@ -8557,11 +8557,11 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.3.1
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.3.1
 
   titleize@3.0.0: {}
 
@@ -8672,11 +8672,11 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.3.1
 
   upper-case@2.0.2:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.3.1
 
   uri-js@4.4.1:
     dependencies:
