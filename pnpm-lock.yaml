@@ -4751,7 +4751,7 @@ snapshots:
 
   '@aws-crypto/util@5.2.0':
     dependencies:
-      '@aws-sdk/types': 3.598.0
+      '@aws-sdk/types': 3.398.0
       '@smithy/util-utf8': 2.3.0
       tslib: 2.6.3
 
@@ -9146,7 +9146,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.6.3
 
   is-negative-zero@2.0.3: {}
 
@@ -9193,7 +9193,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.6.3
 
   is-weakref@1.0.2:
     dependencies:
@@ -9291,7 +9291,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.6.3
 
   lru-cache@10.3.0: {}
 
@@ -9786,7 +9786,7 @@ snapshots:
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.6.3
 
   sqlstring@2.3.3: {}
 
@@ -9855,7 +9855,7 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.6.3
 
   tarn@3.0.2: {}
 
@@ -9863,7 +9863,7 @@ snapshots:
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.6.3
 
   titleize@3.0.0: {}
 
@@ -9980,11 +9980,11 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.6.3
 
   upper-case@2.0.2:
     dependencies:
-      tslib: 2.3.1
+      tslib: 2.6.3
 
   urlpattern-polyfill@10.0.0: {}
 
