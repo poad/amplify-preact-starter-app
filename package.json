@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.0.4",
-    "@aws-amplify/backend-cli": "^1.2.0",
+    "@aws-amplify/backend-cli": "^1.2.1",
     "@preact/preset-vite": "^2.9.0",
     "@types/node": "^20.14.12",
     "typescript": "^5.5.4",
