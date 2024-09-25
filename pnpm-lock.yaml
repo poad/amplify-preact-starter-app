@@ -26,7 +26,7 @@ importers:
         version: 1.2.8(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(@aws-sdk/client-sts@3.621.0)(@aws-sdk/types@3.654.0)(aws-cdk-lib@2.141.0(constructs@10.3.0))(aws-cdk@2.141.0)(constructs@10.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.2)
       '@preact/preset-vite':
         specifier: ^2.9.1
-        version: 2.9.1(@babel/core@7.25.2)(preact@10.24.1)(vite@5.4.7(@types/node@20.16.7))
+        version: 2.9.1(@babel/core@7.25.2)(preact@10.24.1)(vite@5.4.8(@types/node@20.16.7))
       '@types/node':
         specifier: ^20.16.7
         version: 20.16.7
@@ -34,8 +34,8 @@ importers:
         specifier: ^5.6.2
         version: 5.6.2
       vite:
-        specifier: ^5.4.7
-        version: 5.4.7(@types/node@20.16.7)
+        specifier: ^5.4.8
+        version: 5.4.8(@types/node@20.16.7)
 
 packages:
 
@@ -3896,8 +3896,8 @@ packages:
     resolution: {integrity: sha512-Z6Uz+TYwEqE7ZN50gwn+1LCVo9ZVrpxRPOhOLnncYkY1ZzOYtrX8Fwf/rFktZ8R5mJms6EZf5TqNOMeZmnPq9Q==}
     engines: {node: '>=12'}
 
-  vite@5.4.7:
-    resolution: {integrity: sha512-5l2zxqMEPVENgvzTuBpHer2awaetimj2BGkhBPdnwKbPNOlHsODU+oiazEZzLK7KhAnOrO+XGYJYn4ZlUhDtDQ==}
+  vite@5.4.8:
+    resolution: {integrity: sha512-FqrItQ4DT1NC4zCUqMB4c4AZORMKIa0m8/URVCZ77OZ/QSNeJ54bU1vrFADbDsuwfIPcgknRkmqakQcgnL4GiQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -7384,13 +7384,13 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@preact/preset-vite@2.9.1(@babel/core@7.25.2)(preact@10.24.1)(vite@5.4.7(@types/node@20.16.7))':
+  '@preact/preset-vite@2.9.1(@babel/core@7.25.2)(preact@10.24.1)(vite@5.4.8(@types/node@20.16.7))':
     dependencies:
       '@babel/code-frame': 7.24.7
       '@babel/core': 7.25.2
       '@babel/plugin-transform-react-jsx': 7.25.2(@babel/core@7.25.2)
       '@babel/plugin-transform-react-jsx-development': 7.24.7(@babel/core@7.25.2)
-      '@prefresh/vite': 2.4.6(preact@10.24.1)(vite@5.4.7(@types/node@20.16.7))
+      '@prefresh/vite': 2.4.6(preact@10.24.1)(vite@5.4.8(@types/node@20.16.7))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.25.2)
       debug: 4.3.7
@@ -7399,7 +7399,7 @@ snapshots:
       node-html-parser: 6.1.13
       source-map: 0.7.4
       stack-trace: 1.0.0-pre2
-      vite: 5.4.7(@types/node@20.16.7)
+      vite: 5.4.8(@types/node@20.16.7)
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -7412,7 +7412,7 @@ snapshots:
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.6(preact@10.24.1)(vite@5.4.7(@types/node@20.16.7))':
+  '@prefresh/vite@2.4.6(preact@10.24.1)(vite@5.4.8(@types/node@20.16.7))':
     dependencies:
       '@babel/core': 7.25.2
       '@prefresh/babel-plugin': 0.5.1
@@ -7420,7 +7420,7 @@ snapshots:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.24.1
-      vite: 5.4.7(@types/node@20.16.7)
+      vite: 5.4.8(@types/node@20.16.7)
     transitivePeerDependencies:
       - supports-color
 
@@ -9749,7 +9749,7 @@ snapshots:
 
   value-or-promise@1.0.12: {}
 
-  vite@5.4.7(@types/node@20.16.7):
+  vite@5.4.8(@types/node@20.16.7):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
