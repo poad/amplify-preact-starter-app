@@ -9,17 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-amplify/core": "^6.4.5",
-    "aws-amplify": "^6.6.5",
+    "@aws-amplify/core": "^6.4.6",
+    "aws-amplify": "^6.6.6",
     "preact": "^10.24.3"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.5.0",
     "@aws-amplify/backend-cli": "^1.2.9",
     "@preact/preset-vite": "^2.9.1",
-    "@types/node": "^20.16.12",
+    "@types/node": "^20.16.15",
     "typescript": "^5.6.3",
-    "vite": "^5.4.9"
+    "vite": "^5.4.10"
   },
   "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"
 }
