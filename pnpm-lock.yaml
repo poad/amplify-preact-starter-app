@@ -15,8 +15,8 @@ importers:
         specifier: ^6.11.0
         version: 6.11.0
       preact:
-        specifier: ^10.25.3
-        version: 10.25.3
+        specifier: ^10.25.4
+        version: 10.25.4
     devDependencies:
       '@aws-amplify/backend':
         specifier: ^1.11.0
@@ -26,7 +26,7 @@ importers:
         version: 1.4.5(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(@aws-sdk/client-sts@3.621.0)(@aws-sdk/types@3.714.0)(aws-cdk-lib@2.141.0(constructs@10.3.0))(aws-cdk@2.141.0)(constructs@10.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2)
       '@preact/preset-vite':
         specifier: ^2.9.3
-        version: 2.9.3(@babel/core@7.26.0)(preact@10.25.3)(vite@5.4.11(@types/node@20.17.10))
+        version: 2.9.3(@babel/core@7.26.0)(preact@10.25.4)(vite@5.4.11(@types/node@20.17.10))
       '@types/node':
         specifier: ^20.17.10
         version: 20.17.10
@@ -3572,8 +3572,8 @@ packages:
     resolution: {integrity: sha512-9ZhXKM/rw350N1ovuWHbGxnGh/SNJ4cnxHiM0rxE4VN41wsg8P8zWn9hv/buK00RP4WvlOyr/RBDiptyxVbkZQ==}
     engines: {node: '>=0.10.0'}
 
-  preact@10.25.3:
-    resolution: {integrity: sha512-dzQmIFtM970z+fP9ziQ3yG4e3ULIbwZzJ734vaMVUTaKQ2+Ru1Ou/gjshOYVHCcd1rpAelC6ngjvjDXph98unQ==}
+  preact@10.25.4:
+    resolution: {integrity: sha512-jLdZDb+Q+odkHJ+MpW/9U5cODzqnB+fy2EiHSZES7ldV5LK7yjlVzTp7R8Xy6W6y75kfK8iWYtFVH7lvjwrCMA==}
 
   prettier@1.19.1:
     resolution: {integrity: sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==}
@@ -7317,14 +7317,14 @@ snapshots:
   '@graphql-tools/optimize@1.4.0(graphql@15.9.0)':
     dependencies:
       graphql: 15.9.0
-      tslib: 2.4.1
+      tslib: 2.8.1
 
   '@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.9.0)':
     dependencies:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.9.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.9.0)
       graphql: 15.9.0
-      tslib: 2.4.1
+      tslib: 2.8.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -7568,13 +7568,13 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@preact/preset-vite@2.9.3(@babel/core@7.26.0)(preact@10.25.3)(vite@5.4.11(@types/node@20.17.10))':
+  '@preact/preset-vite@2.9.3(@babel/core@7.26.0)(preact@10.25.4)(vite@5.4.11(@types/node@20.17.10))':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.26.0)
-      '@prefresh/vite': 2.4.6(preact@10.25.3)(vite@5.4.11(@types/node@20.17.10))
+      '@prefresh/vite': 2.4.6(preact@10.25.4)(vite@5.4.11(@types/node@20.17.10))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.0)
       debug: 4.4.0
@@ -7590,20 +7590,20 @@ snapshots:
 
   '@prefresh/babel-plugin@0.5.1': {}
 
-  '@prefresh/core@1.5.3(preact@10.25.3)':
+  '@prefresh/core@1.5.3(preact@10.25.4)':
     dependencies:
-      preact: 10.25.3
+      preact: 10.25.4
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.6(preact@10.25.3)(vite@5.4.11(@types/node@20.17.10))':
+  '@prefresh/vite@2.4.6(preact@10.25.4)(vite@5.4.11(@types/node@20.17.10))':
     dependencies:
       '@babel/core': 7.26.0
       '@prefresh/babel-plugin': 0.5.1
-      '@prefresh/core': 1.5.3(preact@10.25.3)
+      '@prefresh/core': 1.5.3(preact@10.25.4)
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
-      preact: 10.25.3
+      preact: 10.25.4
       vite: 5.4.11(@types/node@20.17.10)
     transitivePeerDependencies:
       - supports-color
@@ -8980,7 +8980,7 @@ snapshots:
   graphql-tag@2.12.6(graphql@15.9.0):
     dependencies:
       graphql: 15.9.0
-      tslib: 2.4.1
+      tslib: 2.3.1
 
   graphql-transformer-common@4.31.1:
     dependencies:
@@ -9633,7 +9633,7 @@ snapshots:
     dependencies:
       xtend: 4.0.2
 
-  preact@10.25.3: {}
+  preact@10.25.4: {}
 
   prettier@1.19.1: {}
 
