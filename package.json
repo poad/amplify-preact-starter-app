@@ -11,7 +11,7 @@
   "devDependencies": {
     "@aws-amplify/backend": "^1.13.0",
     "@aws-amplify/backend-cli": "^1.4.7",
-    "@preact/preset-vite": "^2.9.4",
+    "@preact/preset-vite": "^2.10.0",
     "@types/node": "^20.17.14",
     "aws-cdk": "^2.176.0",
     "aws-cdk-lib": "^2.176.0",
@@ -19,7 +19,7 @@
     "esbuild": "^0.24.2",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3",
-    "vite": "^5.4.11"
+    "vite": "^5.4.12"
   },
   "dependencies": {
     "@aws-amplify/core": "^6.9.1",
