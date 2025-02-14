@@ -26,10 +26,10 @@ importers:
         version: 1.4.10(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.178.2(constructs@10.4.2))(aws-cdk@2.178.2)(constructs@10.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       '@preact/preset-vite':
         specifier: ^2.10.1
-        version: 2.10.1(@babel/core@7.26.8)(preact@10.25.4)(vite@6.1.0(@types/node@22.13.1)(tsx@4.19.2))
+        version: 2.10.1(@babel/core@7.26.8)(preact@10.25.4)(vite@6.1.0(@types/node@22.13.4)(tsx@4.19.2))
       '@types/node':
-        specifier: ^22.13.1
-        version: 22.13.1
+        specifier: ^22.13.4
+        version: 22.13.4
       aws-cdk:
         specifier: ^2.178.2
         version: 2.178.2
@@ -43,8 +43,8 @@ importers:
         specifier: ^0.25.0
         version: 0.25.0
       pnpm:
-        specifier: ^10.3.0
-        version: 10.3.0
+        specifier: ^10.4.0
+        version: 10.4.0
       tsx:
         specifier: ^4.19.2
         version: 4.19.2
@@ -53,7 +53,7 @@ importers:
         version: 5.7.3
       vite:
         specifier: ^6.1.0
-        version: 6.1.0(@types/node@22.13.1)(tsx@4.19.2)
+        version: 6.1.0(@types/node@22.13.4)(tsx@4.19.2)
 
   amplify: {}
 
@@ -2477,11 +2477,11 @@ packages:
   '@types/mute-stream@0.0.4':
     resolution: {integrity: sha512-CPM9nzrCPPJHQNA9keH9CVkVI+WR5kMa+7XEs5jcGQ0VoAGnLv242w8lIVgwAEfmE4oufJRaTc9PNLQl0ioAow==}
 
-  '@types/node@20.17.17':
-    resolution: {integrity: sha512-/WndGO4kIfMicEQLTi/mDANUu/iVUhT7KboZPdEqqHQ4aTS+3qT3U5gIqWDFV+XouorjfgGqvKILJeHhuQgFYg==}
+  '@types/node@20.17.19':
+    resolution: {integrity: sha512-LEwC7o1ifqg/6r2gn9Dns0f1rhK+fPFDoMiceTJ6kWmVk6bgXBI/9IOWfVan4WiAavK9pIVWdX0/e3J+eEUh5A==}
 
-  '@types/node@22.13.1':
-    resolution: {integrity: sha512-jK8uzQlrvXqEU91UxiK5J7pKHyzgnI1Qnl0QDHIgVGuolJhRb9EEl28Cj9b3rGR8B2lhFCtvIm5os8lFnO/1Ew==}
+  '@types/node@22.13.4':
+    resolution: {integrity: sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==}
 
   '@types/uuid@9.0.8':
     resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
@@ -2500,8 +2500,8 @@ packages:
     resolution: {integrity: sha512-jCTL/qYcIW2GihbBRHypQ/Us7saWMNZ5fsumsta+qPY0Pmi1ccba/KRQvgctmQsbP69FWemJSs8zVcFaNwdL0w==}
     engines: {node: '>=18.0.0'}
 
-  '@whatwg-node/node-fetch@0.7.8':
-    resolution: {integrity: sha512-Pbv72nbu3AgL9ZaAwdzYcqoMhYGhSBxo49CC+Nt+tlhdDuMZXcf3+41qGghsGJykkxhgfgFcPLwtt2HPEjk57w==}
+  '@whatwg-node/node-fetch@0.7.9':
+    resolution: {integrity: sha512-rp4/lzxK5DDxFFdXcCR3gG4OyWPHqmN1GrKostx2NEy7sHUQA/B3j0M2z+qfMQVg5SC4RRm0eFwD73e+GgAM3A==}
     engines: {node: '>=18.0.0'}
 
   ansi-escapes@4.3.2:
@@ -2936,8 +2936,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.98:
-    resolution: {integrity: sha512-bI/LbtRBxU2GzK7KK5xxFd2y9Lf9XguHooPYbcXWy6wUoT8NMnffsvRhPmSeUHLSDKAEtKuTaEtK4Ms15zkIEA==}
+  electron-to-chromium@1.5.99:
+    resolution: {integrity: sha512-77c/+fCyL2U+aOyqfIFi89wYLBeSTCs55xCZL0oFH0KjqsvSvyh6AdQ+UIl1vgpnQQE6g+/KK8hOIupH6VwPtg==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3930,8 +3930,8 @@ packages:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
 
-  pnpm@10.3.0:
-    resolution: {integrity: sha512-7lku2ogVqKKTwga7CRfEuw/ydMUN73y8F74F7GQfwtGwJJDOZgBhNWvQ0Sak1+suyIMOaVn7ikR1ccYx1aJELQ==}
+  pnpm@10.4.0:
+    resolution: {integrity: sha512-a4SdB4fZf49OHwOpuP+PA4554VPW8RrlOa58Q1/555bfaoYsmRUCaVx/no+siur8GsWo2rR+NhSNGDgy2IbdUg==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -7785,7 +7785,7 @@ snapshots:
     dependencies:
       '@inquirer/type': 1.5.5
       '@types/mute-stream': 0.0.4
-      '@types/node': 20.17.17
+      '@types/node': 20.17.19
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -7956,17 +7956,17 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@preact/preset-vite@2.10.1(@babel/core@7.26.8)(preact@10.25.4)(vite@6.1.0(@types/node@22.13.1)(tsx@4.19.2))':
+  '@preact/preset-vite@2.10.1(@babel/core@7.26.8)(preact@10.25.4)(vite@6.1.0(@types/node@22.13.4)(tsx@4.19.2))':
     dependencies:
       '@babel/core': 7.26.8
       '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.8)
       '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.26.8)
-      '@prefresh/vite': 2.4.7(preact@10.25.4)(vite@6.1.0(@types/node@22.13.1)(tsx@4.19.2))
+      '@prefresh/vite': 2.4.7(preact@10.25.4)(vite@6.1.0(@types/node@22.13.4)(tsx@4.19.2))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.8)
       debug: 4.4.0
       kolorist: 1.8.0
-      vite: 6.1.0(@types/node@22.13.1)(tsx@4.19.2)
+      vite: 6.1.0(@types/node@22.13.4)(tsx@4.19.2)
       vite-prerender-plugin: 0.5.6
     transitivePeerDependencies:
       - preact
@@ -7980,7 +7980,7 @@ snapshots:
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.7(preact@10.25.4)(vite@6.1.0(@types/node@22.13.1)(tsx@4.19.2))':
+  '@prefresh/vite@2.4.7(preact@10.25.4)(vite@6.1.0(@types/node@22.13.4)(tsx@4.19.2))':
     dependencies:
       '@babel/core': 7.26.8
       '@prefresh/babel-plugin': 0.5.1
@@ -7988,7 +7988,7 @@ snapshots:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.25.4
-      vite: 6.1.0(@types/node@22.13.1)(tsx@4.19.2)
+      vite: 6.1.0(@types/node@22.13.4)(tsx@4.19.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -8734,13 +8734,13 @@ snapshots:
 
   '@types/mute-stream@0.0.4':
     dependencies:
-      '@types/node': 22.13.1
+      '@types/node': 22.13.4
 
-  '@types/node@20.17.17':
+  '@types/node@20.17.19':
     dependencies:
       undici-types: 6.19.8
 
-  '@types/node@22.13.1':
+  '@types/node@22.13.4':
     dependencies:
       undici-types: 6.20.0
 
@@ -8760,10 +8760,10 @@ snapshots:
 
   '@whatwg-node/fetch@0.10.3':
     dependencies:
-      '@whatwg-node/node-fetch': 0.7.8
+      '@whatwg-node/node-fetch': 0.7.9
       urlpattern-polyfill: 10.0.0
 
-  '@whatwg-node/node-fetch@0.7.8':
+  '@whatwg-node/node-fetch@0.7.9':
     dependencies:
       '@whatwg-node/disposablestack': 0.0.5
       busboy: 1.6.0
@@ -8942,7 +8942,7 @@ snapshots:
   browserslist@4.24.4:
     dependencies:
       caniuse-lite: 1.0.30001699
-      electron-to-chromium: 1.5.98
+      electron-to-chromium: 1.5.99
       node-releases: 2.0.19
       update-browserslist-db: 1.1.2(browserslist@4.24.4)
 
@@ -9267,7 +9267,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.98: {}
+  electron-to-chromium@1.5.99: {}
 
   emoji-regex@8.0.0: {}
 
@@ -10344,7 +10344,7 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  pnpm@10.3.0: {}
+  pnpm@10.4.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -10865,13 +10865,13 @@ snapshots:
       source-map: 0.7.4
       stack-trace: 1.0.0-pre2
 
-  vite@6.1.0(@types/node@22.13.1)(tsx@4.19.2):
+  vite@6.1.0(@types/node@22.13.4)(tsx@4.19.2):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.5.2
       rollup: 4.34.6
     optionalDependencies:
-      '@types/node': 22.13.1
+      '@types/node': 22.13.4
       fsevents: 2.3.3
       tsx: 4.19.2
 
