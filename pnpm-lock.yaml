@@ -2403,12 +2403,12 @@ packages:
     resolution: {integrity: sha512-9lXugdknoIequO4OYvIjhygvfSEgnO8oASLqLelnDhkRjgBZhc39shC3QSlZuyDO9bgYSIVa2cHAiN+St3ty4w==}
     engines: {node: '>=18.0.0'}
 
-  '@whatwg-node/fetch@0.10.3':
-    resolution: {integrity: sha512-jCTL/qYcIW2GihbBRHypQ/Us7saWMNZ5fsumsta+qPY0Pmi1ccba/KRQvgctmQsbP69FWemJSs8zVcFaNwdL0w==}
+  '@whatwg-node/fetch@0.10.4':
+    resolution: {integrity: sha512-rCycAF+bNJFuyY2w9JdMOaIc/VIwnBFG+skXfKaF/I9u91LpQD7qMrI6ZiKByIiQFttwsAUDLtFGBHeZ6UHC3Q==}
     engines: {node: '>=18.0.0'}
 
-  '@whatwg-node/node-fetch@0.7.9':
-    resolution: {integrity: sha512-rp4/lzxK5DDxFFdXcCR3gG4OyWPHqmN1GrKostx2NEy7sHUQA/B3j0M2z+qfMQVg5SC4RRm0eFwD73e+GgAM3A==}
+  '@whatwg-node/node-fetch@0.7.10':
+    resolution: {integrity: sha512-Wibb7IQyMNhNc4GBepKWWDdAYyduU5UY2NOtiQMPZnUn7tMBJKugVIrGBBTZp5OqxtM+tccSO/LzNTH0S4c0qw==}
     engines: {node: '>=18.0.0'}
 
   ansi-escapes@4.3.2:
@@ -3101,8 +3101,8 @@ packages:
     peerDependencies:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
 
-  graphql-transformer-common@4.31.1:
-    resolution: {integrity: sha512-s+C2S3PrDyuAR0ZDj9vq/DaV3ZUMf04VzacIPrc9wodvtF76Jr4E/ZzXnUAC1dKX96oK3E31W/7jilQoyZj8Rg==}
+  graphql-transformer-common@4.32.0:
+    resolution: {integrity: sha512-CJzMt3TMjRlHrNu0lCV1RfHfKCQrmL1ORrYgcKw0r65D8VbmTnTJ0j0JCBLqq5BL6nKL1+DKkXp9TMhcsOs7Fw==}
 
   graphql-transformer-common@5.1.2:
     resolution: {integrity: sha512-uKE2KWYJTWGe8Hcwm7WIy4TSEKTF6MFXeUPDvixlAGgTFkGJ1p/fjecOy2odxzVY/T3qLpL5c8Hij54pz+oZng==}
@@ -4150,8 +4150,8 @@ packages:
     resolution: {integrity: sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==}
     engines: {node: '>=8'}
 
-  strnum@1.0.5:
-    resolution: {integrity: sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA==}
+  strnum@1.1.1:
+    resolution: {integrity: sha512-O7aCHfYCamLCctjAiaucmE+fHf2DYHkus2OKCn4Wv03sykfFtgeECn505X6K4mPl8CRNd/qurC9guq+ynoN4pw==}
 
   supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
@@ -4574,7 +4574,7 @@ snapshots:
       chalk: 3.0.0
       change-case: 4.1.2
       graphql: 15.10.1
-      graphql-transformer-common: 4.31.1
+      graphql-transformer-common: 4.32.0
       lower-case-first: 2.0.2
       pluralize: 8.0.0
       strip-indent: 3.0.0
@@ -7728,7 +7728,7 @@ snapshots:
   '@graphql-tools/apollo-engine-loader@8.0.15(graphql@15.10.1)':
     dependencies:
       '@graphql-tools/utils': 10.8.1(graphql@15.10.1)
-      '@whatwg-node/fetch': 0.10.3
+      '@whatwg-node/fetch': 0.10.4
       graphql: 15.10.1
       sync-fetch: 0.6.0-2
       tslib: 2.8.1
@@ -8796,12 +8796,12 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@whatwg-node/fetch@0.10.3':
+  '@whatwg-node/fetch@0.10.4':
     dependencies:
-      '@whatwg-node/node-fetch': 0.7.9
+      '@whatwg-node/node-fetch': 0.7.10
       urlpattern-polyfill: 10.0.0
 
-  '@whatwg-node/node-fetch@0.7.9':
+  '@whatwg-node/node-fetch@0.7.10':
     dependencies:
       '@whatwg-node/disposablestack': 0.0.5
       busboy: 1.6.0
@@ -9512,11 +9512,11 @@ snapshots:
 
   fast-xml-parser@4.4.1:
     dependencies:
-      strnum: 1.0.5
+      strnum: 1.1.1
 
   fast-xml-parser@4.5.2:
     dependencies:
-      strnum: 1.0.5
+      strnum: 1.1.1
 
   fastq@1.19.0:
     dependencies:
@@ -9706,7 +9706,7 @@ snapshots:
       graphql: 15.10.1
       tslib: 2.3.1
 
-  graphql-transformer-common@4.31.1:
+  graphql-transformer-common@4.32.0:
     dependencies:
       graphql: 15.10.1
       graphql-mapping-template: 4.20.16
@@ -10699,7 +10699,7 @@ snapshots:
     dependencies:
       min-indent: 1.0.1
 
-  strnum@1.0.5: {}
+  strnum@1.1.1: {}
 
   supports-color@5.5.0:
     dependencies:
