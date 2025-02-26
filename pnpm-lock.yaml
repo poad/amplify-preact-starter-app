@@ -96,6 +96,11 @@ packages:
     peerDependencies:
       graphql: ^15.5.0
 
+  '@aws-amplify/appsync-modelgen-plugin@2.15.2':
+    resolution: {integrity: sha512-ZUnp+g7a/RZJGRygquPhZWO4E9KjOPj5ARwhkiOHXp2XffYNy4VkjFYJjmufNnURp54awSYV09aHsjj2tW0Dhw==}
+    peerDependencies:
+      graphql: ^15.5.0
+
   '@aws-amplify/auth-construct@1.6.0':
     resolution: {integrity: sha512-ohI3JX+Yw0kYoRJv3Jx8DTb3wwEQrNYb2CLoL05dBa/abnVnDibd2TtWRfIJT99zSt7Pccv/ldGNe7basjNalg==}
     peerDependencies:
@@ -478,8 +483,8 @@ packages:
     engines: {node: '>=10.0.0'}
     hasBin: true
 
-  '@aws-amplify/graphql-generator@0.5.2':
-    resolution: {integrity: sha512-sdo2E6sJh8ctrIXJqU+sOPJY6ql5UM3AlNjidNn80+dN2ifbZKupQyXroc9bb5P3UarHg5Cos99lfKcpxuGvqg==}
+  '@aws-amplify/graphql-generator@0.5.3':
+    resolution: {integrity: sha512-vU3sLcVi0rwu0k+jepKSRcyb9igKJx3VAmXy/aRd7ggXPiw3uu8pZOVFQqZxOV5Ro5awMGCdLR6gSrpX6+1ADQ==}
 
   '@aws-amplify/graphql-schema-generator@0.11.7':
     resolution: {integrity: sha512-7dnTqJvhO3GeSpWO3qhds7buXgA6OWzHJI0zOK2x9LYNmkLDfjs4tBM6RwqKT/YKSG4jlc1VPHgmdAxZSzJMng==}
@@ -1388,8 +1393,8 @@ packages:
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
 
-  '@graphql-tools/apollo-engine-loader@8.0.16':
-    resolution: {integrity: sha512-Ee/41PVC/N8foLs6k/kwI2LAvGCyELIHJAa9eSYRqIUZVaOrPZDGkTkSe2SBQvGo706sL8VCcXDD9OpmiO6e5Q==}
+  '@graphql-tools/apollo-engine-loader@8.0.17':
+    resolution: {integrity: sha512-2DwndS4GurK7VB8LD1paWZPdaYIwqMkMg2a3GU5nNpkL401QAAr2Mw3zYZ6XNe+nNHv4EyhywJ/ahuKKBcmJIA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -1428,6 +1433,12 @@ packages:
 
   '@graphql-tools/utils@10.8.2':
     resolution: {integrity: sha512-JjWpf9Dj2LXFccAB7CON6jUcXduJlE5XcJfLmKTWBk46Ei2dhDntVAmvIa97YPdLanrgFN5SRt3hSAe3qo/FYg==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+
+  '@graphql-tools/utils@10.8.3':
+    resolution: {integrity: sha512-4QCvx3SWRsbH7wnktl51mBek+zE9hsjsv796XVlJlOUdWpAghJmA3ID2P7/Vwuy7BivVNfuAKe4ucUdE1fG7vA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -2204,8 +2215,8 @@ packages:
     resolution: {integrity: sha512-ec9ZPDImceXD9gShv0VTc6q0waZ7ccpiYXNbAeGMjGQAZ8hkAeAYOXoiJsfaHO5Pt0UR+SbNVTJGP2aeFMYz0Q==}
     engines: {node: '>=18.0.0'}
 
-  '@whatwg-node/promise-helpers@1.0.0':
-    resolution: {integrity: sha512-6cJoRLP6/0Bf4k2i36R1f9lisId6fIYEOQ5CUHSPRCmiJfo+HGAm8P/5Qoy28lvYngw3SKBLJ5YqtGWjUaMA6g==}
+  '@whatwg-node/promise-helpers@1.2.1':
+    resolution: {integrity: sha512-+faGtJlS4U8NSaSzRVN37xAprPdhoobYzUSUo4DgH8APtfFyizmNxp0ckwKcURoL8cy2B+bKxOWU/VIH2nFeLg==}
     engines: {node: '>=18.0.0'}
 
   ansi-escapes@4.3.2:
@@ -2636,8 +2647,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.104:
-    resolution: {integrity: sha512-Us9M2L4cO/zMBqVkJtnj353nQhMju9slHm62NprKTmdF3HH8wYOtNvDFq/JB2+ZRoGLzdvYDiATlMHs98XBM1g==}
+  electron-to-chromium@1.5.105:
+    resolution: {integrity: sha512-ccp7LocdXx3yBhwiG0qTQ7XFrK48Ua2pxIxBdJO8cbddp/MvbBtPFzvnTchtyHQTsgqqczO8cdmAIbpMa0u2+g==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3737,8 +3748,8 @@ packages:
     resolution: {integrity: sha512-l+sSefzHpj5qimhFSE5a8nufZYAM3sBSVMAPtYkmC+4EH2anSGaEMXSD0izRQbu9nfyQ9y5JrVmp7E8oZrUjvA==}
     engines: {node: '>=8'}
 
-  reusify@1.0.4:
-    resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
+  reusify@1.1.0:
+    resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
   rimraf@3.0.2:
@@ -4375,6 +4386,23 @@ snapshots:
       - encoding
       - supports-color
 
+  '@aws-amplify/appsync-modelgen-plugin@2.15.2(graphql@15.10.1)':
+    dependencies:
+      '@graphql-codegen/plugin-helpers': 3.1.2(graphql@15.10.1)
+      '@graphql-codegen/visitor-plugin-common': 1.22.0(graphql@15.10.1)
+      '@graphql-tools/utils': 6.2.4(graphql@15.10.1)
+      chalk: 3.0.0
+      change-case: 4.1.2
+      graphql: 15.10.1
+      graphql-transformer-common: 4.32.1
+      lower-case-first: 2.0.2
+      pluralize: 8.0.0
+      strip-indent: 3.0.0
+      ts-dedent: 1.2.0
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+
   '@aws-amplify/auth-construct@1.6.0(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.180.0(constructs@10.4.2))(constructs@10.4.2)(zod@3.24.2)':
     dependencies:
       '@aws-amplify/backend-output-schemas': 1.4.0(zod@3.24.2)
@@ -4459,7 +4487,7 @@ snapshots:
       '@aws-amplify/backend-output-storage': 1.1.4(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.180.0(constructs@10.4.2))(constructs@10.4.2)(zod@3.24.2)
       '@aws-amplify/data-construct': 1.14.8(aws-cdk-lib@2.180.0(constructs@10.4.2))(constructs@10.4.2)
       '@aws-amplify/data-schema-types': 1.2.0
-      '@aws-amplify/graphql-generator': 0.5.2
+      '@aws-amplify/graphql-generator': 0.5.3
       '@aws-amplify/plugin-types': 1.8.0(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.180.0(constructs@10.4.2))(constructs@10.4.2)
       aws-cdk-lib: 2.180.0(constructs@10.4.2)
       constructs: 10.4.2
@@ -4707,15 +4735,15 @@ snapshots:
       handlebars: 4.7.7
       yargs: 15.4.1
 
-  '@aws-amplify/graphql-generator@0.5.2':
+  '@aws-amplify/graphql-generator@0.5.3':
     dependencies:
-      '@aws-amplify/appsync-modelgen-plugin': 2.15.1(graphql@15.10.1)
+      '@aws-amplify/appsync-modelgen-plugin': 2.15.2(graphql@15.10.1)
       '@aws-amplify/graphql-directives': 1.1.0
       '@aws-amplify/graphql-docs-generator': 4.2.1
       '@aws-amplify/graphql-types-generator': 3.6.0
       '@graphql-codegen/core': 2.6.8(graphql@15.10.1)
       '@graphql-codegen/plugin-helpers': 3.1.2(graphql@15.10.1)
-      '@graphql-tools/apollo-engine-loader': 8.0.16(graphql@15.10.1)
+      '@graphql-tools/apollo-engine-loader': 8.0.17(graphql@15.10.1)
       '@graphql-tools/schema': 9.0.19(graphql@15.10.1)
       '@graphql-tools/utils': 9.2.1(graphql@15.10.1)
       graphql: 15.10.1
@@ -4797,7 +4825,7 @@ snapshots:
     dependencies:
       '@aws-amplify/backend-output-schemas': 1.4.0(zod@3.24.2)
       '@aws-amplify/deployed-backend-client': 1.5.0(@aws-sdk/client-amplify@3.750.0)(@aws-sdk/client-cloudformation@3.750.0)(@aws-sdk/client-s3@3.750.0)(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.180.0(constructs@10.4.2))(constructs@10.4.2)
-      '@aws-amplify/graphql-generator': 0.5.2
+      '@aws-amplify/graphql-generator': 0.5.3
       '@aws-amplify/graphql-types-generator': 3.6.0
       '@aws-amplify/platform-core': 1.6.3(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.180.0(constructs@10.4.2))(constructs@10.4.2)
       '@aws-amplify/plugin-types': 1.8.0(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.180.0(constructs@10.4.2))(constructs@10.4.2)
@@ -7224,9 +7252,9 @@ snapshots:
       - encoding
       - supports-color
 
-  '@graphql-tools/apollo-engine-loader@8.0.16(graphql@15.10.1)':
+  '@graphql-tools/apollo-engine-loader@8.0.17(graphql@15.10.1)':
     dependencies:
-      '@graphql-tools/utils': 10.8.2(graphql@15.10.1)
+      '@graphql-tools/utils': 10.8.3(graphql@15.10.1)
       '@whatwg-node/fetch': 0.10.5
       graphql: 15.10.1
       sync-fetch: 0.6.0-2
@@ -7281,6 +7309,15 @@ snapshots:
       dset: 3.1.4
       graphql: 15.10.1
       tslib: 2.6.3
+
+  '@graphql-tools/utils@10.8.3(graphql@15.10.1)':
+    dependencies:
+      '@graphql-typed-document-node/core': 3.2.0(graphql@15.10.1)
+      '@whatwg-node/promise-helpers': 1.2.1
+      cross-inspect: 1.0.1
+      dset: 3.1.4
+      graphql: 15.10.1
+      tslib: 2.8.1
 
   '@graphql-tools/utils@6.2.4(graphql@15.10.1)':
     dependencies:
@@ -8293,7 +8330,7 @@ snapshots:
 
   '@whatwg-node/disposablestack@0.0.6':
     dependencies:
-      '@whatwg-node/promise-helpers': 1.0.0
+      '@whatwg-node/promise-helpers': 1.2.1
       tslib: 2.8.1
 
   '@whatwg-node/fetch@0.10.5':
@@ -8304,11 +8341,11 @@ snapshots:
   '@whatwg-node/node-fetch@0.7.12':
     dependencies:
       '@whatwg-node/disposablestack': 0.0.6
-      '@whatwg-node/promise-helpers': 1.0.0
+      '@whatwg-node/promise-helpers': 1.2.1
       busboy: 1.6.0
       tslib: 2.8.1
 
-  '@whatwg-node/promise-helpers@1.0.0':
+  '@whatwg-node/promise-helpers@1.2.1':
     dependencies:
       tslib: 2.8.1
 
@@ -8484,7 +8521,7 @@ snapshots:
   browserslist@4.24.4:
     dependencies:
       caniuse-lite: 1.0.30001700
-      electron-to-chromium: 1.5.104
+      electron-to-chromium: 1.5.105
       node-releases: 2.0.19
       update-browserslist-db: 1.1.2(browserslist@4.24.4)
 
@@ -8807,7 +8844,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.104: {}
+  electron-to-chromium@1.5.105: {}
 
   emoji-regex@8.0.0: {}
 
@@ -8997,7 +9034,7 @@ snapshots:
 
   fastq@1.19.0:
     dependencies:
-      reusify: 1.0.4
+      reusify: 1.1.0
 
   fb-watchman@2.0.2:
     dependencies:
@@ -9939,7 +9976,7 @@ snapshots:
       onetime: 5.1.2
       signal-exit: 3.0.7
 
-  reusify@1.0.4: {}
+  reusify@1.1.0: {}
 
   rimraf@3.0.2:
     dependencies:
