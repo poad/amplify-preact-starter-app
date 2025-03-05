@@ -1401,8 +1401,8 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/merge@9.0.21':
-    resolution: {integrity: sha512-5EiVL2InZeBlsZXlXjqyNMD697QP44j/dipXEogHlZcZzWEP/JTDwx9hTfFbmrePVR8+p89gFg1tE25iEgSong==}
+  '@graphql-tools/merge@9.0.22':
+    resolution: {integrity: sha512-bjOs9DlTbo1Yz2UzQcJ78Dn9/pKyY2zNaoqNLfRTTSkO56QFkvqhfjQuqJcqu+V3rtaB2o0VMpWaY6JT8ZTvQA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -1417,20 +1417,14 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/schema@10.0.20':
-    resolution: {integrity: sha512-BmDqXS9gHJF2Cl1k+IOiPCYWApBU6LhqSEPc8WmAxn08HtmhKoCizwiUuWtt8SOV67yoMzC1zJFkBdm3wZX9Fw==}
+  '@graphql-tools/schema@10.0.21':
+    resolution: {integrity: sha512-AECSlNnD0WNxICwfJs93gYn2oHxPmztn1MYBETIQXrJJcymfD6BoUrDlYPa6F27RzRc+gbPZPHMWL26uujfKBg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
   '@graphql-tools/schema@9.0.19':
     resolution: {integrity: sha512-oBRPoNBtCkk0zbUsyP4GaIzCt8C0aCI4ycIRUL67KK5pOHljKLBBtGT+Jr6hkzA74C8Gco8bpZPe7aWFjiaK2w==}
-    peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
-
-  '@graphql-tools/utils@10.8.3':
-    resolution: {integrity: sha512-4QCvx3SWRsbH7wnktl51mBek+zE9hsjsv796XVlJlOUdWpAghJmA3ID2P7/Vwuy7BivVNfuAKe4ucUdE1fG7vA==}
-    engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
@@ -2280,8 +2274,8 @@ packages:
     resolution: {integrity: sha512-ec9ZPDImceXD9gShv0VTc6q0waZ7ccpiYXNbAeGMjGQAZ8hkAeAYOXoiJsfaHO5Pt0UR+SbNVTJGP2aeFMYz0Q==}
     engines: {node: '>=18.0.0'}
 
-  '@whatwg-node/promise-helpers@1.2.2':
-    resolution: {integrity: sha512-aPVTGCs/QEYkSTnYcLKE1wyYZykbGjaXsEwXHc0FKbSlojIpdw72BQMJx9aJXzkCs6qy9WfDV0jhV9C2qIYYOA==}
+  '@whatwg-node/promise-helpers@1.2.4':
+    resolution: {integrity: sha512-daEUfaHbaMuAcor+FPAVK+pOCSzsAYhK6LN1y81EcakdqQEPQvjm74PTmfwfv8POg8pw4RyCv9LXB1e+mQDwqg==}
     engines: {node: '>=16.0.0'}
 
   ansi-escapes@4.3.2:
@@ -7261,8 +7255,8 @@ snapshots:
   '@graphql-codegen/core@4.0.2(graphql@15.10.1)':
     dependencies:
       '@graphql-codegen/plugin-helpers': 5.1.0(graphql@15.10.1)
-      '@graphql-tools/schema': 10.0.20(graphql@15.10.1)
-      '@graphql-tools/utils': 10.8.3(graphql@15.10.1)
+      '@graphql-tools/schema': 10.0.21(graphql@15.10.1)
+      '@graphql-tools/utils': 10.8.4(graphql@15.10.1)
       graphql: 15.10.1
       tslib: 2.6.3
 
@@ -7287,7 +7281,7 @@ snapshots:
 
   '@graphql-codegen/plugin-helpers@5.1.0(graphql@15.10.1)':
     dependencies:
-      '@graphql-tools/utils': 10.8.3(graphql@15.10.1)
+      '@graphql-tools/utils': 10.8.4(graphql@15.10.1)
       change-case-all: 1.0.15
       common-tags: 1.8.2
       graphql: 15.10.1
@@ -7362,31 +7356,31 @@ snapshots:
       graphql: 15.10.1
       tslib: 2.8.1
 
-  '@graphql-tools/merge@9.0.21(graphql@15.10.1)':
+  '@graphql-tools/merge@9.0.22(graphql@15.10.1)':
     dependencies:
-      '@graphql-tools/utils': 10.8.3(graphql@15.10.1)
+      '@graphql-tools/utils': 10.8.4(graphql@15.10.1)
       graphql: 15.10.1
       tslib: 2.6.3
 
   '@graphql-tools/optimize@1.4.0(graphql@15.10.1)':
     dependencies:
       graphql: 15.10.1
-      tslib: 2.8.1
+      tslib: 2.4.1
 
   '@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.10.1)':
     dependencies:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.10.1)
       '@graphql-tools/utils': 9.2.1(graphql@15.10.1)
       graphql: 15.10.1
-      tslib: 2.8.1
+      tslib: 2.4.1
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  '@graphql-tools/schema@10.0.20(graphql@15.10.1)':
+  '@graphql-tools/schema@10.0.21(graphql@15.10.1)':
     dependencies:
-      '@graphql-tools/merge': 9.0.21(graphql@15.10.1)
-      '@graphql-tools/utils': 10.8.3(graphql@15.10.1)
+      '@graphql-tools/merge': 9.0.22(graphql@15.10.1)
+      '@graphql-tools/utils': 10.8.4(graphql@15.10.1)
       graphql: 15.10.1
       tslib: 2.6.3
 
@@ -7398,23 +7392,14 @@ snapshots:
       tslib: 2.8.1
       value-or-promise: 1.0.12
 
-  '@graphql-tools/utils@10.8.3(graphql@15.10.1)':
+  '@graphql-tools/utils@10.8.4(graphql@15.10.1)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.10.1)
-      '@whatwg-node/promise-helpers': 1.2.2
+      '@whatwg-node/promise-helpers': 1.2.4
       cross-inspect: 1.0.1
       dset: 3.1.4
       graphql: 15.10.1
       tslib: 2.6.3
-
-  '@graphql-tools/utils@10.8.4(graphql@15.10.1)':
-    dependencies:
-      '@graphql-typed-document-node/core': 3.2.0(graphql@15.10.1)
-      '@whatwg-node/promise-helpers': 1.2.2
-      cross-inspect: 1.0.1
-      dset: 3.1.4
-      graphql: 15.10.1
-      tslib: 2.8.1
 
   '@graphql-tools/utils@6.2.4(graphql@15.10.1)':
     dependencies:
@@ -8445,7 +8430,7 @@ snapshots:
 
   '@whatwg-node/disposablestack@0.0.6':
     dependencies:
-      '@whatwg-node/promise-helpers': 1.2.2
+      '@whatwg-node/promise-helpers': 1.2.4
       tslib: 2.8.1
 
   '@whatwg-node/fetch@0.10.5':
@@ -8456,11 +8441,11 @@ snapshots:
   '@whatwg-node/node-fetch@0.7.12':
     dependencies:
       '@whatwg-node/disposablestack': 0.0.6
-      '@whatwg-node/promise-helpers': 1.2.2
+      '@whatwg-node/promise-helpers': 1.2.4
       busboy: 1.6.0
       tslib: 2.8.1
 
-  '@whatwg-node/promise-helpers@1.2.2':
+  '@whatwg-node/promise-helpers@1.2.4':
     dependencies:
       tslib: 2.6.3
 
@@ -9339,7 +9324,7 @@ snapshots:
   graphql-tag@2.12.6(graphql@15.10.1):
     dependencies:
       graphql: 15.10.1
-      tslib: 2.3.1
+      tslib: 2.4.1
 
   graphql-transformer-common@4.32.1:
     dependencies:
@@ -9709,7 +9694,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.8.1
 
   lru-cache@10.4.3: {}
 
@@ -10524,11 +10509,11 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.8.1
 
   upper-case@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.8.1
 
   urlpattern-polyfill@10.0.0: {}
 
