@@ -584,8 +584,8 @@ packages:
     resolution: {integrity: sha512-wnNKTK1LIezCwc2ZuEQjcB/iHp0nlpngil9T8BAes+NFNuhmHg9ES6dNIfAk/jXBsjU6jZbixUyRJVPHMMlRwA==}
     engines: {node: '>=18.0.0'}
 
-  '@aws-sdk/client-appsync@3.758.0':
-    resolution: {integrity: sha512-0rgzvJyUVb/6XYcUjwRCFIZG4U5pB4MFDsaY6TZhWrtcTgilC/qIGmHnI3mNyhFzrPeiKlCKkS1coqzlvYyyRg==}
+  '@aws-sdk/client-appsync@3.770.0':
+    resolution: {integrity: sha512-QrFXV50fDaaVGKg7sQu3DNHT2GrL6Mzc/o7StOrBvt3Xez8xxLRgPLAhmrNamGGY4doAOQ1a3ZG08/09zaM/wQ==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/client-cloudformation@3.758.0':
@@ -2459,8 +2459,8 @@ packages:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001705:
-    resolution: {integrity: sha512-S0uyMMiYvA7CxNgomYBwwwPUnWzFD83f3B1ce5jHUfHTH//QL6hHsreI8RVC5606R4ssqravelYO5TU6t8sEyg==}
+  caniuse-lite@1.0.30001706:
+    resolution: {integrity: sha512-3ZczoTApMAZwPKYWmwVbQMFpXBDds3/0VciVoUwPUbldlYyVLmRVuRs/PcUZtHpbLRpzzDvrvnFuREsGt6lUug==}
 
   capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -3494,8 +3494,8 @@ packages:
   nanoclone@0.2.1:
     resolution: {integrity: sha512-wynEP02LmIbLpcYw8uBKpcfF6dmg2vcpKqxeH5UcoKEYdExslsdUA4ugFauuaeYdTB76ez6gJW8XAZ6CgkXYxA==}
 
-  nanoid@3.3.10:
-    resolution: {integrity: sha512-vSJJTG+t/dIKAUhUDw/dLdZ9s//5OxcHqLaDWWrW4Cdq7o6tdLIczUkMXt2MBNmk6sJRZBZRXVixs7URY1CmIg==}
+  nanoid@3.3.11:
+    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -4797,7 +4797,7 @@ snapshots:
       '@aws-amplify/graphql-directives': 1.1.0
       '@aws-amplify/graphql-docs-generator': 4.2.1
       '@aws-sdk/client-amplifyuibuilder': 3.758.0
-      '@aws-sdk/client-appsync': 3.758.0
+      '@aws-sdk/client-appsync': 3.770.0
       '@aws-sdk/client-s3': 3.758.0
       '@graphql-codegen/core': 4.0.2(graphql@15.10.1)
       '@graphql-codegen/typescript': 2.8.8(graphql@15.10.1)
@@ -4921,7 +4921,7 @@ snapshots:
       '@aws-amplify/platform-core': 1.6.5(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.184.1(constructs@10.4.2))(constructs@10.4.2)
       '@aws-amplify/plugin-types': 1.8.1(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.184.1(constructs@10.4.2))(constructs@10.4.2)
       '@aws-sdk/client-amplify': 3.767.0
-      '@aws-sdk/client-appsync': 3.758.0
+      '@aws-sdk/client-appsync': 3.770.0
       '@aws-sdk/client-cloudformation': 3.758.0
       '@aws-sdk/client-s3': 3.758.0
       '@aws-sdk/credential-providers': 3.768.0
@@ -5165,7 +5165,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-appsync@3.758.0':
+  '@aws-sdk/client-appsync@3.770.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -8622,7 +8622,7 @@ snapshots:
 
   browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001705
+      caniuse-lite: 1.0.30001706
       electron-to-chromium: 1.5.120
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
@@ -8676,7 +8676,7 @@ snapshots:
 
   camelcase@5.3.1: {}
 
-  caniuse-lite@1.0.30001705: {}
+  caniuse-lite@1.0.30001706: {}
 
   capital-case@1.0.4:
     dependencies:
@@ -9776,7 +9776,7 @@ snapshots:
 
   nanoclone@0.2.1: {}
 
-  nanoid@3.3.10: {}
+  nanoid@3.3.11: {}
 
   neo-async@2.6.2: {}
 
@@ -10007,7 +10007,7 @@ snapshots:
 
   postcss@8.5.3:
     dependencies:
-      nanoid: 3.3.10
+      nanoid: 3.3.11
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
