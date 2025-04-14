@@ -12,7 +12,7 @@
     "@aws-amplify/backend": "^1.15.0",
     "@aws-amplify/backend-cli": "^1.6.0",
     "@preact/preset-vite": "^2.10.1",
-    "@types/node": "^22.14.0",
+    "@types/node": "^22.14.1",
     "aws-cdk": "^2.1007.0",
     "aws-cdk-lib": "^2.189.0",
     "constructs": "^10.4.2",
